@@ -1,5 +1,5 @@
-// 'use strict';
 module.exports = function(sequelize, DataTypes) {
+  'use strict';
   var Adie = sequelize.define('Adie', {
     name: {
       type: DataTypes.STRING,
