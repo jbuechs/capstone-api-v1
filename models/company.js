@@ -32,7 +32,6 @@ module.exports = function(sequelize, DataTypes) {
       associate: function(models) {
         Company.hasMany(models.Adie, { as: 'adies' });
         Company.hasMany(models.Employee, { as: 'employees'});
-        console.log('Company associations created');
       }
     }
   });

@@ -39,8 +39,7 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        Adie.belongsTo(models.Employee, { as: 'internship'});
-        console.log('Adie association created');
+        Adie.belongsTo(models.Company, { as: 'internship'});
       }
     }
   });

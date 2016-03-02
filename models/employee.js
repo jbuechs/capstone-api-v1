@@ -33,7 +33,6 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models){
         Employee.belongsTo(models.Company, {as: 'Company'});
-        console.log('Employee association created');
       }
     }
   });
