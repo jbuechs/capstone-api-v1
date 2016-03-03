@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   'use strict';
-  var Company = sequelize.define('Company', {
+  var company = sequelize.define('company', {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -30,10 +30,10 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        Company.hasMany(models.Adie, { as: 'adies' });
-        Company.hasMany(models.Employee, { as: 'employees'});
+        company.hasMany(models.adie, { as: 'adies' });
+        company.hasMany(models.employee, { as: 'employees'});
       }
     }
   });
-  return Company;
+  return company;
 };

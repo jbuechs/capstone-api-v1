@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   'use strict';
-  var Employee = sequelize.define('Employee', {
+  var employee = sequelize.define('employee', {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -32,9 +32,9 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models){
-        Employee.belongsTo(models.Company, {as: 'Company'});
+        employee.belongsTo(models.company, {as: 'company'});
       }
     }
   });
-  return Employee;
+  return employee;
 };
