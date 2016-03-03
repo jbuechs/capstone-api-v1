@@ -39,7 +39,7 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        Adie.belongsTo(models.Company, { as: 'internship'});
+        Adie.belongsTo(models.Company);
       }
     }
   });
