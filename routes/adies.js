@@ -1,15 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var pry = require('pryjs');
 var db = require('../models');
+var pry = require('pryjs');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
+// GET adies path
+router.get('/adies', function(req, res, next) {
+	eval(pry.it);
 	db.adie.findAll()
 		.then(function(adies) {
 			res.send({adies: adies});
 		});
-  // res.render('index', { title: "Jennie's Capstone API" });
 });
 
 module.exports = router;
