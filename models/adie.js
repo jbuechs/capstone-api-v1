@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   'use strict';
-  var Adie = sequelize.define('Adie', {
+  var adie = sequelize.define('adie', {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -20,9 +20,6 @@ module.exports = function(sequelize, DataTypes) {
     },
     linked_in_url: {
       type: DataTypes.STRING,
-      validate: {
-        isUrl: true,
-      }
     },
     image: {
       type: DataTypes.STRING
@@ -39,9 +36,9 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        Adie.belongsTo(models.Company);
+        adie.belongsTo(models.company);
       }
     }
   });
-  return Adie;
+  return adie;
 };

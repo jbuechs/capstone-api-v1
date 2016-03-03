@@ -22,9 +22,6 @@ module.exports = function(sequelize, DataTypes) {
     },
     linked_in_url: {
       type: DataTypes.STRING,
-      validate: {
-        isUrl: true,
-      }
     },
     image: {
       type: DataTypes.STRING,
