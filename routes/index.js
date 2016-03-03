@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var pry = require('pryjs');
 var db = require('../models');
 
 /* GET home page. */
