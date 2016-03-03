@@ -18,5 +18,8 @@
     "sequelize": "^3.19.3",
     "sequelize-cli": "^2.3.1",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "pryjs": "^0.1.3"
   }
 }
