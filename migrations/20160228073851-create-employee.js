@@ -29,9 +29,9 @@ module.exports = {
       },
       linked_in_url: {
         type: Sequelize.STRING,
-        validate: {
-          isUrl: true,
-        }
+        // validate: {
+        //   isUrl: true,
+        // }
       },
       image: {
         type: Sequelize.STRING,
