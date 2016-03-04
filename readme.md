@@ -1,7 +1,18 @@
-# Creating the models with sequelize
-node_modules/.bin/sequelize model:create --name company --attributes name:string,street:string,city:string,state:string,zip:string,website:string,logo:string
+# To view deployed API
 
-node_modules/.bin/sequelize model:create --name adie --attributes name:string,cohort:integer,github_username:string,twitter:string,linked_in_url:string,image:string,email:string,bio:text
+https://ada-capstone-api.herokuapp.com/
 
-sequelize model:create --name employee --attributes name:string,position:name, email:name,twitter:name,linked_in_url:string,image:string
+*Currently working endpoints:*
+GET
 
+- /adies
+- /adies/:id
+- /companies
+- /companies/:id
+- /employees
+- /employees/:id
+
+Need to work on:
+- Authentication
+- Showing different information on GET according to authentication/permissions
+- Allowing updating for a user's own record
