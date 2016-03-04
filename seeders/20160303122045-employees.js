@@ -11,7 +11,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/aishamathews",
           "image":"",
-          "companyId":1
+          "companyId":1,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":2,
@@ -21,7 +23,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/nasreenabduljaleel",
           "image":"",
-          "companyId":1
+          "companyId":1,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":3,
@@ -31,7 +35,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/kelsey-anderson-foley-914b751",
           "image":"",
-          "companyId":2
+          "companyId":2,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":4,
@@ -41,7 +47,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/david-weiser-238b6223",
           "image":"",
-          "companyId":2
+          "companyId":2,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":5,
@@ -51,7 +59,9 @@ module.exports = {
           "twitter":"@adamedx",
           "linked_in_url":"https://www.linkedin.com/in/adamedx",
           "image":"",
-          "companyId":6
+          "companyId":6,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":6,
@@ -61,7 +71,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/wendymcintosh1",
           "image":"",
-          "companyId":6
+          "companyId":6,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":7,
@@ -71,7 +83,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/davidamarion",
           "image":"",
-          "companyId":6
+          "companyId":6,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":8,
@@ -81,7 +95,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/choinaomi",
           "image":"",
-          "companyId":7
+          "companyId":7,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":9,
@@ -91,7 +107,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/joegoldbergtheninja",
           "image":"",
-          "companyId":9
+          "companyId":9,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":10,
@@ -101,7 +119,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/robinclowers",
           "image":"",
-          "companyId":10
+          "companyId":10,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":11,
@@ -111,7 +131,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/aaronjensen",
           "image":"",
-          "companyId":10
+          "companyId":10,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":12,
@@ -121,7 +143,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/eleni-adams-36299969",
           "image":"",
-          "companyId":10
+          "companyId":10,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":13,
@@ -131,7 +155,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/carollin",
           "image":"",
-          "companyId":12
+          "companyId":12,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":14,
@@ -141,7 +167,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/madeline-harris-71794724",
           "image":"",
-          "companyId":12
+          "companyId":12,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":15,
@@ -151,7 +179,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/lizsymes",
           "image":"",
-          "companyId":12
+          "companyId":12,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":16,
@@ -161,7 +191,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/alan-chappell-6721bb",
           "image":"",
-          "companyId":14
+          "companyId":14,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":17,
@@ -171,7 +203,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/tmyk4wsmith",
           "image":"",
-          "companyId":14
+          "companyId":14,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":18,
@@ -181,7 +215,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/gomfa",
           "image":"",
-          "companyId":15
+          "companyId":15,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":19,
@@ -191,7 +227,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/sarah-fisher-b823a215",
           "image":"",
-          "companyId":null
+          "companyId":null,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":20,
@@ -201,7 +239,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/trevor-smith-30456431",
           "image":"",
-          "companyId":16
+          "companyId":16,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":21,
@@ -211,7 +251,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/melissamackie",
           "image":"",
-          "companyId":16
+          "companyId":16,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":22,
@@ -221,7 +263,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/joon-hao-chuah-279b427",
           "image":"",
-          "companyId":16
+          "companyId":16,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":23,
@@ -231,7 +275,9 @@ module.exports = {
           "twitter":"@AsquaredNicole",
           "linked_in_url":"https://www.linkedin.com/in/arielle-allen-16367948",
           "image":"arielle_allen.jpg",
-          "companyId":17
+          "companyId":17,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":24,
@@ -241,7 +287,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/rob-gruhl-388a832",
           "image":"rob_gruhl.jpg",
-          "companyId":17
+          "companyId":17,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":25,
@@ -251,7 +299,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/gina-schmalzle-23408a13",
           "image":"gina.jpg",
-          "companyId":17
+          "companyId":17,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":26,
@@ -261,7 +311,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/vyaskv",
           "image":"khyati.jpg",
-          "companyId":17
+          "companyId":17,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":27,
@@ -271,7 +323,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/kmeghji",
           "image":"",
-          "companyId":19
+          "companyId":19,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":28,
@@ -281,7 +335,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/colleen-briant-9517701b",
           "image":"",
-          "companyId":19
+          "companyId":19,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":29,
@@ -291,7 +347,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/nicolettegraham",
           "image":"",
-          "companyId":20
+          "companyId":20,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":30,
@@ -301,7 +359,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/justin-kramer-30691b2",
           "image":"",
-          "companyId":20
+          "companyId":20,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":31,
@@ -311,7 +371,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/angela-bultemeier-57809a1",
           "image":"",
-          "companyId":21
+          "companyId":21,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":32,
@@ -321,7 +383,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/joel-nethery-7bb79148",
           "image":"",
-          "companyId":22
+          "companyId":22,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":33,
@@ -331,7 +395,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/ian-thomas-ab99442",
           "image":"",
-          "companyId":22
+          "companyId":22,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":34,
@@ -341,7 +407,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/cpope",
           "image":"",
-          "companyId":22
+          "companyId":22,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":35,
@@ -351,7 +419,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/parkerken",
           "image":"",
-          "companyId":23
+          "companyId":23,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":36,
@@ -361,7 +431,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/webblily",
           "image":"",
-          "companyId":24
+          "companyId":24,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":37,
@@ -371,7 +443,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/jeffhouse425",
           "image":"",
-          "companyId":24
+          "companyId":24,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":38,
@@ -381,7 +455,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/jenrance",
           "image":"",
-          "companyId":25
+          "companyId":25,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":39,
@@ -391,7 +467,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/vanessa-feliberti-a9426b3",
           "image":"",
-          "companyId":25
+          "companyId":25,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":40,
@@ -401,7 +479,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/chris-burroughs-3865483",
           "image":"",
-          "companyId":25
+          "companyId":25,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":41,
@@ -411,7 +491,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/jewelvonkempf",
           "image":"",
-          "companyId":26
+          "companyId":26,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":42,
@@ -421,7 +503,9 @@ module.exports = {
           "twitter":"@mrscottbrady",
           "linked_in_url":"https://www.linkedin.com/in/mrscottbrady",
           "image":"",
-          "companyId":26
+          "companyId":26,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":43,
@@ -431,7 +515,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/mattmehlhope",
           "image":"",
-          "companyId":26
+          "companyId":26,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":44,
@@ -441,7 +527,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/jill-domanico-16b27a1",
           "image":"",
-          "companyId":26
+          "companyId":26,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":45,
@@ -451,7 +539,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/urmilanadkarni",
           "image":"urmila.jpg",
-          "companyId":27
+          "companyId":27,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":46,
@@ -461,7 +551,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/jovanateodorovic",
           "image":"",
-          "companyId":27
+          "companyId":27,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":47,
@@ -471,7 +563,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/franklin-williams-1398523",
           "image":"",
-          "companyId":27
+          "companyId":27,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":48,
@@ -481,7 +575,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/darynnakhuda",
           "image":"",
-          "companyId":28
+          "companyId":28,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":49,
@@ -491,7 +587,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/tomdabson",
           "image":"tom_dabson.png",
-          "companyId":30
+          "companyId":30,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":50,
@@ -501,7 +599,9 @@ module.exports = {
           "twitter":"https://twitter.com/heydavemiller",
           "linked_in_url":"https://www.linkedin.com/in/dsmiller",
           "image":"dave_miller.jpg",
-          "companyId":30
+          "companyId":30,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":51,
@@ -511,7 +611,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/masumahenry",
           "image":"",
-          "companyId":30
+          "companyId":30,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":52,
@@ -521,7 +623,9 @@ module.exports = {
           "twitter":"@enlearn.org",
           "linked_in_url":"https://www.linkedin.com/in/shanecurrier",
           "image":"Shane-Currier.jpg",
-          "companyId":31
+          "companyId":31,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":53,
@@ -531,7 +635,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/paulkellis",
           "image":"Paul-Ellis.jpg",
-          "companyId":31
+          "companyId":31,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":54,
@@ -541,7 +647,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/hasmik-tananyan-mkrtchyan-3474a726",
           "image":"",
-          "companyId":31
+          "companyId":31,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":55,
@@ -551,7 +659,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/jennifer-biely-b522ba1a",
           "image":"",
-          "companyId":31
+          "companyId":31,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":56,
@@ -561,7 +671,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/alison-bower-65b9406",
           "image":"",
-          "companyId":31
+          "companyId":31,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":57,
@@ -571,7 +683,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/maria-ray-1725063",
           "image":"",
-          "companyId":32
+          "companyId":32,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":58,
@@ -581,7 +695,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/danabowlin",
           "image":"",
-          "companyId":32
+          "companyId":32,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":59,
@@ -591,7 +707,9 @@ module.exports = {
           "twitter":"@dougcole",
           "linked_in_url":"",
           "image":"",
-          "companyId":33
+          "companyId":33,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         },
         {
           "id":60,
@@ -601,7 +719,9 @@ module.exports = {
           "twitter":"",
           "linked_in_url":"https://www.linkedin.com/in/david-weiser-238b6223",
           "image":"",
-          "companyId":2
+          "companyId":2,
+          "createdAt":new Date(),
+          "updatedAt":new Date()
         }
       ], {});
   },

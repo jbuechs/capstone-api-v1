@@ -9,9 +9,11 @@ module.exports = {
           "street":"",
           "city":"Bellevue",
           "state":"WA",
-          "zip":"98004",
+          "zip":98004,
           "website":"http://www.lifeatexpedia.com/",
           "logo":"expedia.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":2,
@@ -22,6 +24,8 @@ module.exports = {
           "zip":98101,
           "website":"https://moz.com/about/jobs",
           "logo":"Moz-Logo.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":3,
@@ -32,6 +36,8 @@ module.exports = {
           "zip":98102,
           "website":"http://www.liquidplanner.com/careers/",
           "logo":"liquid_planner.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":4,
@@ -42,6 +48,8 @@ module.exports = {
           "zip":98101,
           "website":"http://www.marchex.com/company/careers/",
           "logo":"marchex_logo.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":5,
@@ -52,6 +60,8 @@ module.exports = {
           "zip":98101,
           "website":"https://www.apexlearning.com/",
           "logo":"apex_learning.jpeg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":6,
@@ -62,6 +72,8 @@ module.exports = {
           "zip":98104,
           "website":"https://www.chef.io/",
           "logo":"chef_logo.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":7,
@@ -72,6 +84,8 @@ module.exports = {
           "zip":98104,
           "website":"http://www.emc.com/en-us/storage/isilon/index.htm",
           "logo":"isilon_logo.gif",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":8,
@@ -82,6 +96,8 @@ module.exports = {
           "zip":null,
           "website":"",
           "logo":"",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":9,
@@ -92,6 +108,8 @@ module.exports = {
           "zip":98104,
           "website":"https://www.energysavvy.com/careers",
           "logo":"energysavvy-logo.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":10,
@@ -102,6 +120,8 @@ module.exports = {
           "zip":98122,
           "website":"http://substantial.com/",
           "logo":"substantial.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":11,
@@ -112,6 +132,8 @@ module.exports = {
           "zip":98104,
           "website":"http://www.foundryinteractive.com/",
           "logo":"foundry_interactive.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":12,
@@ -122,6 +144,8 @@ module.exports = {
           "zip":98101,
           "website":"http://www.zillow.com/jobs/seattle-office/",
           "logo":"zillow-logo.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":13,
@@ -132,6 +156,8 @@ module.exports = {
           "zip":98122,
           "website":"http://nird.us/",
           "logo":"nird.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":14,
@@ -142,6 +168,8 @@ module.exports = {
           "zip":98109,
           "website":"http://www.pnnl.gov/",
           "logo":"pnnl.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":15,
@@ -152,6 +180,8 @@ module.exports = {
           "zip":98121,
           "website":"http://www.redfin.com/about/jobs",
           "logo":"redfin.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":16,
@@ -162,6 +192,8 @@ module.exports = {
           "zip":98109,
           "website":"http://www.amazon.jobs/location/seattle-wa",
           "logo":"amazon.jpeg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":17,
@@ -172,6 +204,8 @@ module.exports = {
           "zip":98101,
           "website":"http://about.nordstrom.com/careers/#/headquarters-careers/main",
           "logo":"nordstrom-logo.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":18,
@@ -182,6 +216,8 @@ module.exports = {
           "zip":98103,
           "website":"http://generalui.com/who-we-are/",
           "logo":"general_ui_logo.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":19,
@@ -192,6 +228,8 @@ module.exports = {
           "zip":98119,
           "website":"http://suite.booking.com/",
           "logo":"booking-suite.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":20,
@@ -202,6 +240,8 @@ module.exports = {
           "zip":98004,
           "website":"https://www.concur.com/en-us/careers",
           "logo":"concur_logo.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":21,
@@ -212,6 +252,8 @@ module.exports = {
           "zip":98104,
           "website":"http://www.envestnet.com/",
           "logo":"envestnet.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":22,
@@ -222,6 +264,8 @@ module.exports = {
           "zip":98104,
           "website":"http://www.gettyimagesjobs.com/",
           "logo":"getty-images-logo.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":23,
@@ -232,6 +276,8 @@ module.exports = {
           "zip":null,
           "website":"",
           "logo":"indeed.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":24,
@@ -242,6 +288,8 @@ module.exports = {
           "zip":98005,
           "website":"http://indigoslate.com/careers.html",
           "logo":"indigo_slate.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":25,
@@ -252,6 +300,8 @@ module.exports = {
           "zip":98052,
           "website":"https://careers.microsoft.com/",
           "logo":"microsoft-logo.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":26,
@@ -262,6 +312,8 @@ module.exports = {
           "zip":98104,
           "website":"https://www.skytap.com/company/careers/",
           "logo":"skytap.jpeg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":27,
@@ -272,6 +324,8 @@ module.exports = {
           "zip":98104,
           "website":"http://careers.socrata.com/",
           "logo":"socrata.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":28,
@@ -282,6 +336,8 @@ module.exports = {
           "zip":null,
           "website":"http://www.spare5.com/jobs/",
           "logo":"spare5.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":29,
@@ -292,6 +348,8 @@ module.exports = {
           "zip":98121,
           "website":"http://www.tune.com/careers/",
           "logo":"tune.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":30,
@@ -302,6 +360,8 @@ module.exports = {
           "zip":98104,
           "website":"https://www.artefactgroup.com/content/job/",
           "logo":"artefact-logo.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":31,
@@ -312,6 +372,8 @@ module.exports = {
           "zip":98102,
           "website":"http://www.enlearn.org/join-us/",
           "logo":"enlearn.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":32,
@@ -322,6 +384,8 @@ module.exports = {
           "zip":98101,
           "website":"http://www.centurylink.com/Pages/AboutUs/CompanyInformation/Careers/",
           "logo":"centurylink.jpg",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         },
         {
           "id":33,
@@ -332,6 +396,8 @@ module.exports = {
           "zip":98101,
           "website":"http://www.estately.com/about",
           "logo":"estately-logo.png",
+          "createdAt": new Date(),
+          "updatedAt": new Date()
         }
       ], {});
   },

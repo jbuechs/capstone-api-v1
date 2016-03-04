@@ -13,7 +13,9 @@ module.exports = {
         "image":"",
         "email":"foo1@bar.com",
         "companyId":3,
-        "bio":"Audrey Carlsen was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Audrey Carlsen was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":2,
@@ -25,7 +27,9 @@ module.exports = {
         "image":"",
         "email":"agolveo@gmail.com",
         "companyId":2,
-        "bio":"Asha Golveo was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Asha Golveo was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":3,
@@ -37,7 +41,9 @@ module.exports = {
         "image":"",
         "email":"shadaeholmes@gmail.com",
         "companyId":11,
-        "bio":"Shadae Holmes was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Shadae Holmes was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":4,
@@ -49,7 +55,9 @@ module.exports = {
         "image":"",
         "email":"hhhsu1@gmail.com",
         "companyId":7,
-        "bio":"Hsing-Hui Hsu was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Hsing-Hui Hsu was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":5,
@@ -61,7 +69,9 @@ module.exports = {
         "image":"",
         "email":"foo2@bar.com",
         "companyId":4,
-        "bio":"Blake Johnson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Blake Johnson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":6,
@@ -73,7 +83,9 @@ module.exports = {
         "image":"",
         "email":"foo3@bar.com",
         "companyId":1,
-        "bio":"Anne Kimsey was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Anne Kimsey was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":7,
@@ -85,7 +97,9 @@ module.exports = {
         "image":"",
         "email":"ms.whitney.levis@gmail.com",
         "companyId":13,
-        "bio":"Whitney-Rose Levis was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Whitney-Rose Levis was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":8,
@@ -97,7 +111,9 @@ module.exports = {
         "image":"",
         "email":"davidamarion@gmail.com",
         "companyId":6,
-        "bio":"Davida Marion was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Davida Marion was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":9,
@@ -109,7 +125,9 @@ module.exports = {
         "image":"",
         "email":"foo4@bar.com",
         "companyId":1,
-        "bio":"Melinda Mizuta was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Melinda Mizuta was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":10,
@@ -121,7 +139,9 @@ module.exports = {
         "image":"",
         "email":"liz@lizmrush.com",
         "companyId":10,
-        "bio":"Liz Rush was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Liz Rush was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":11,
@@ -133,7 +153,9 @@ module.exports = {
         "image":"",
         "email":"c.thompsonms@gmail.com",
         "companyId":5,
-        "bio":"Christina Thompson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Christina Thompson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":12,
@@ -145,7 +167,9 @@ module.exports = {
         "image":"",
         "email":"foo5@bar.com",
         "companyId":7,
-        "bio":"Elizabeth Uselton was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Elizabeth Uselton was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":13,
@@ -157,7 +181,9 @@ module.exports = {
         "image":"",
         "email":"sue@mailworks.org",
         "companyId":12,
-        "bio":"Sue White was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Sue White was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":14,
@@ -169,7 +195,9 @@ module.exports = {
         "image":"",
         "email":"foo6@bar.com",
         "companyId":8,
-        "bio":"Ellen Wondra-Lindley was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Ellen Wondra-Lindley was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":15,
@@ -181,7 +209,9 @@ module.exports = {
         "image":"",
         "email":"foo7@bar.com",
         "companyId":9,
-        "bio":"Galina Yermicheva was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Galina Yermicheva was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":16,
@@ -193,7 +223,9 @@ module.exports = {
         "image":"Rachel.JPG",
         "email":"rmoshier@gmail.com",
         "companyId":6,
-        "bio":"Rachel Adler was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Rachel Adler was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":17,
@@ -205,7 +237,9 @@ module.exports = {
         "image":"richa.jpg",
         "email":"ricarora@gmail.com",
         "companyId":1,
-        "bio":"Richa Arora was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Richa Arora was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":18,
@@ -217,7 +251,9 @@ module.exports = {
         "image":"Katie.JPG",
         "email":"kab761@gmail.com",
         "companyId":2,
-        "bio":"Katie Bosch was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Katie Bosch was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":19,
@@ -229,7 +265,9 @@ module.exports = {
         "image":"Linnea.jpg",
         "email":"lkdamer@gmail.com",
         "companyId":7,
-        "bio":"Linnea Damer was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Linnea Damer was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":20,
@@ -241,7 +279,9 @@ module.exports = {
         "image":"bri.jpg",
         "email":"bridotson@gmail.com",
         "companyId":9,
-        "bio":"Bri Dotson was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Bri Dotson was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":21,
@@ -253,7 +293,9 @@ module.exports = {
         "image":"Kat.JPG",
         "email":"katesuzannefulton@gmail.com",
         "companyId":4,
-        "bio":"Kate Fulton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kate Fulton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":22,
@@ -265,7 +307,9 @@ module.exports = {
         "image":"",
         "email":"hjert.k@gmail.com",
         "companyId":10,
-        "bio":"Kristina Hjertberg was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kristina Hjertberg was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":23,
@@ -277,7 +321,9 @@ module.exports = {
         "image":"Kamilah.jpeg",
         "email":"kamilah.jenkins@gmail.com",
         "companyId":7,
-        "bio":"Kamilah Jenkins was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kamilah Jenkins was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":24,
@@ -289,7 +335,9 @@ module.exports = {
         "image":"",
         "email":"rkeblitis@gmail.com",
         "companyId":16,
-        "bio":"Rachelle Keblitis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Rachelle Keblitis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":25,
@@ -301,7 +349,9 @@ module.exports = {
         "image":"Stephanie Pi.jpeg",
         "email":"eskay@ghadibalo.com",
         "companyId":17,
-        "bio":"Stephanie Kwak was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Stephanie Kwak was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":26,
@@ -313,7 +363,9 @@ module.exports = {
         "image":"",
         "email":"kbonnie@gmail.com",
         "companyId":1,
-        "bio":"Bonnie Kwong was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Bonnie Kwong was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":27,
@@ -325,7 +377,9 @@ module.exports = {
         "image":"holly-ada.jpg",
         "email":"schleary@gmail.com",
         "companyId":5,
-        "bio":"Holly Leary was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Holly Leary was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":28,
@@ -337,7 +391,9 @@ module.exports = {
         "image":"Rebecca Mark.jpg",
         "email":"rebecca.lmark@gmail.com",
         "companyId":4,
-        "bio":"Rebecca Mark was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Rebecca Mark was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":29,
@@ -349,7 +405,9 @@ module.exports = {
         "image":"",
         "email":"kmccabe3@gmail.com",
         "companyId":16,
-        "bio":"Kristen McCabe was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kristen McCabe was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":30,
@@ -361,7 +419,9 @@ module.exports = {
         "image":"Lily.jpg",
         "email":"lilyfpace@gmail.com",
         "companyId":18,
-        "bio":"Lily Pace was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Lily Pace was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":31,
@@ -373,7 +433,9 @@ module.exports = {
         "image":"calla.jpeg",
         "email":"callapatel@gmail.com",
         "companyId":1,
-        "bio":"Calla Patel was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Calla Patel was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":32,
@@ -385,7 +447,9 @@ module.exports = {
         "image":"katef.jpg",
         "email":"kmmpatke@gmail.com",
         "companyId":17,
-        "bio":"Katherine Patke was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Katherine Patke was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":33,
@@ -397,7 +461,9 @@ module.exports = {
         "image":"crystalperreira.jpg",
         "email":"cvperreira@gmail.com",
         "companyId":16,
-        "bio":"Crystal Perreira was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Crystal Perreira was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":34,
@@ -409,7 +475,9 @@ module.exports = {
         "image":"StephanieK.jpg",
         "email":"stephmpi@gmail.com",
         "companyId":16,
-        "bio":"Stephanie Pi was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Stephanie Pi was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":35,
@@ -421,7 +489,9 @@ module.exports = {
         "image":"",
         "email":"bpraggastis@gmail.com",
         "companyId":14,
-        "bio":"Brenda Praggastis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Brenda Praggastis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":36,
@@ -433,7 +503,9 @@ module.exports = {
         "image":"Allie.jpg",
         "email":"sterling.allie@gmail.com",
         "companyId":12,
-        "bio":"Allie Sterling was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Allie Sterling was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":37,
@@ -445,7 +517,9 @@ module.exports = {
         "image":"",
         "email":"cathode.use@gmail.com",
         "companyId":15,
-        "bio":"Cate Uselton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Cate Uselton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":38,
@@ -457,7 +531,9 @@ module.exports = {
         "image":"Alice1.jpg",
         "email":"alice.rhomieux@gmail.com",
         "companyId":16,
-        "bio":"Alice Rhomieux was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Alice Rhomieux was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":39,
@@ -469,7 +545,9 @@ module.exports = {
         "image":"Amira1.jpg",
         "email":"AWatkins31@gmail.com",
         "companyId":20,
-        "bio":"Amira Hailemariam was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Amira Hailemariam was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":40,
@@ -481,7 +559,9 @@ module.exports = {
         "image":"Anita2.jpg",
         "email":"michellemccarthy@hotmail.com",
         "companyId":27,
-        "bio":"Anita Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Anita Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":41,
@@ -493,7 +573,9 @@ module.exports = {
         "image":"Ashley2.jpg",
         "email":"drvonnjerryxlii@gmail.com",
         "companyId":23,
-        "bio":"Ashley Watkins was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Ashley Watkins was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":42,
@@ -505,7 +587,9 @@ module.exports = {
         "image":"Brandi2.jpg",
         "email":"camarleigh@gmail.com",
         "companyId":26,
-        "bio":"Brandi Wilson was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Brandi Wilson was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":43,
@@ -517,7 +601,9 @@ module.exports = {
         "image":"Brenna2.jpg",
         "email":"loraine@lorainekv.com",
         "companyId":15,
-        "bio":"Brenna Leker was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Brenna Leker was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":44,
@@ -529,7 +615,9 @@ module.exports = {
         "image":"Brittany2.jpg",
         "email":"elgrenier@gmail.com",
         "companyId":1,
-        "bio":"Brittany Walentin was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Brittany Walentin was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":45,
@@ -541,7 +629,9 @@ module.exports = {
         "image":"Carly2.jpg",
         "email":"asovay@gmail.com",
         "companyId":19,
-        "bio":"Carly Jugler was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Carly Jugler was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":46,
@@ -553,7 +643,9 @@ module.exports = {
         "image":"Corinne2.jpg",
         "email":"corinnepingul@gmail.com",
         "companyId":1,
-        "bio":"Corinne Pingul was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Corinne Pingul was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":47,
@@ -565,7 +657,9 @@ module.exports = {
         "image":"Elia2.jpg",
         "email":"sallyamoore@gmail.com",
         "companyId":28,
-        "bio":"Elia Grenier was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Elia Grenier was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":48,
@@ -577,7 +671,9 @@ module.exports = {
         "image":"Elsa1.jpg",
         "email":"shannachau@gmail.com",
         "companyId":11,
-        "bio":"Elsa Moluf was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Elsa Moluf was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":49,
@@ -589,7 +685,9 @@ module.exports = {
         "image":"Jeri2.jpg",
         "email":"katrops@gmail.com",
         "companyId":25,
-        "bio":"Jeri Sommers was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Jeri Sommers was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":50,
@@ -601,7 +699,9 @@ module.exports = {
         "image":"Kari1.jpg",
         "email":"amira.dhaile@gmail.com",
         "companyId":16,
-        "bio":"Kari Lonczak was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kari Lonczak was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":51,
@@ -613,7 +713,9 @@ module.exports = {
         "image":"Katie1.jpg",
         "email":"brittany.walentin@gmail.com",
         "companyId":21,
-        "bio":"Katie Atrops was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Katie Atrops was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":52,
@@ -625,7 +727,9 @@ module.exports = {
         "image":"Kyna2.jpg",
         "email":"wilson.e.brandi@gmail.com",
         "companyId":20,
-        "bio":"Kyna Nguyen was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kyna Nguyen was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":53,
@@ -637,7 +741,9 @@ module.exports = {
         "image":"Lila1.jpg",
         "email":"elsa.moluf@gmail.com",
         "companyId":22,
-        "bio":"Lila Garcia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Lila Garcia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":54,
@@ -649,7 +755,9 @@ module.exports = {
         "image":"Lindsey1.jpg",
         "email":"lindseyannereno@gmail.com",
         "companyId":2,
-        "bio":"Lindsey Reno was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Lindsey Reno was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":55,
@@ -661,7 +769,9 @@ module.exports = {
         "image":"Loraine2.jpg",
         "email":"vikshab2010@hotmail.com",
         "companyId":29,
-        "bio":"Loraine Kanervisto was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Loraine Kanervisto was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":56,
@@ -673,7 +783,9 @@ module.exports = {
         "image":"Marleigh2.jpg",
         "email":"lilagrc@gmail.com",
         "companyId":25,
-        "bio":"Marleigh Chiles was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Marleigh Chiles was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":57,
@@ -685,7 +797,9 @@ module.exports = {
         "image":"Michelle1.jpg",
         "email":"kari.lonczak@gmail.com",
         "companyId":24,
-        "bio":"Michelle McCarthy was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Michelle McCarthy was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":58,
@@ -697,7 +811,9 @@ module.exports = {
         "image":"Sally2.jpg",
         "email":"brennarama@gmail.com",
         "companyId":9,
-        "bio":"Sally Moore was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Sally Moore was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":59,
@@ -709,7 +825,9 @@ module.exports = {
         "image":"Shanna1.jpg",
         "email":"carjug@gmail.com",
         "companyId":1,
-        "bio":"Shanna Chau was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Shanna Chau was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":60,
@@ -721,7 +839,9 @@ module.exports = {
         "image":"Viktoryia1.jpg",
         "email":"khn710@gmail.com",
         "companyId":25,
-        "bio":"Viktoryia Shabunia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Viktoryia Shabunia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":61,
@@ -733,7 +853,9 @@ module.exports = {
         "image":"Wang1.jpg",
         "email":"wang131.131@gmail.com",
         "companyId":29,
-        "bio":"Wang (Loren) Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Wang (Loren) Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":62,
@@ -745,7 +867,9 @@ module.exports = {
         "image":"Risha.JPG",
         "email":"risha.a@hotmail.com",
         "companyId":null,
-        "bio":"Risha Allen was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Risha Allen was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":63,
@@ -757,7 +881,9 @@ module.exports = {
         "image":"Jennie.JPG",
         "email":"Janina.buechner@gmail.com",
         "companyId":30,
-        "bio":"Jennie Buechner was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Jennie Buechner was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":64,
@@ -769,7 +895,9 @@ module.exports = {
         "image":"Audrey.JPG",
         "email":"davis.audrey.lynn@gmail.com",
         "companyId":17,
-        "bio":"Audrey Davis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Audrey Davis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":65,
@@ -781,7 +909,9 @@ module.exports = {
         "image":"Katherine.JPG",
         "email":"kdefliese@gmail.com",
         "companyId":1,
-        "bio":"Katherine Defliese was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Katherine Defliese was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":66,
@@ -793,7 +923,9 @@ module.exports = {
         "image":"Kelly.JPG",
         "email":"kelly_devlin@alumni.brown.edu",
         "companyId":16,
-        "bio":"Kelly Devlin was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Kelly Devlin was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":67,
@@ -805,7 +937,9 @@ module.exports = {
         "image":"Daphne.JPG",
         "email":"dg1181@nyu.edu",
         "companyId":16,
-        "bio":"Daphne Gold was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Daphne Gold was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":68,
@@ -817,7 +951,9 @@ module.exports = {
         "image":"Emily.JPG",
         "email":"emgord@gmail.com",
         "companyId":26,
-        "bio":"Emily Gordon was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Emily Gordon was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":69,
@@ -829,7 +965,9 @@ module.exports = {
         "image":"Lauren.JPG",
         "email":"Lr.granger21@gmail.com",
         "companyId":32,
-        "bio":"Lauren Granger was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Lauren Granger was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":70,
@@ -841,7 +979,9 @@ module.exports = {
         "image":"Annalee.JPG",
         "email":"annaleeherrera@gmail.com",
         "companyId":33,
-        "bio":"Annalee Herrera was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Annalee Herrera was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":71,
@@ -853,7 +993,9 @@ module.exports = {
         "image":"Tamar.JPG",
         "email":"misstamar@gmail.com",
         "companyId":32,
-        "bio":"Tamar Hershenbaum was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Tamar Hershenbaum was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":72,
@@ -865,7 +1007,9 @@ module.exports = {
         "image":"Ricky.JPG",
         "email":"houglande@gmail.com",
         "companyId":27,
-        "bio":"Ricky Hougland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Ricky Hougland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":73,
@@ -877,7 +1021,9 @@ module.exports = {
         "image":"Amy.JPG",
         "email":"amyrhunter@gmail.com",
         "companyId":31,
-        "bio":"Amy Hunter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Amy Hunter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":74,
@@ -889,7 +1035,9 @@ module.exports = {
         "image":"SarahK.JPG",
         "email":"sarahkane682@yahoo.com",
         "companyId":null,
-        "bio":"Sarah Kane was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Sarah Kane was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":75,
@@ -901,7 +1049,9 @@ module.exports = {
         "image":"brittany_kohler.png",
         "email":"brittanykohler@gmail.com",
         "companyId":12,
-        "bio":"Brittany Kohler was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Brittany Kohler was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":76,
@@ -913,7 +1063,9 @@ module.exports = {
         "image":"Logan.JPG",
         "email":"loganmcdona11@gmail.com",
         "companyId":6,
-        "bio":"Logan McDonald was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Logan McDonald was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":77,
@@ -925,7 +1077,9 @@ module.exports = {
         "image":"Jenna.JPG",
         "email":"jennic@utexas.edu",
         "companyId":15,
-        "bio":"Jenna Nichols was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Jenna Nichols was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":78,
@@ -937,7 +1091,9 @@ module.exports = {
         "image":"Jessica.JPG",
         "email":"jessica.noglows@outlook.com",
         "companyId":14,
-        "bio":"Jessica Noglows was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Jessica Noglows was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":79,
@@ -949,7 +1105,9 @@ module.exports = {
         "image":"Desiree.JPG",
         "email":"desireepoland@gmail.com",
         "companyId":17,
-        "bio":"Desiree Poland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Desiree Poland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":80,
@@ -961,7 +1119,9 @@ module.exports = {
         "image":"Meighan.JPG",
         "email":"meighanr@gmail.com",
         "companyId":7,
-        "bio":"Meighan Rasley was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Meighan Rasley was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":81,
@@ -973,7 +1133,9 @@ module.exports = {
         "image":"Claire.JPG",
         "email":"ClaireS29@gmail.com",
         "companyId":2,
-        "bio":"Claire Schechter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Claire Schechter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":82,
@@ -985,7 +1147,9 @@ module.exports = {
         "image":"Riley.JPG",
         "email":"blankpagesandcoffeestains@gmail.com",
         "companyId":16,
-        "bio":"Riley Spicer was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Riley Spicer was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":83,
@@ -997,7 +1161,9 @@ module.exports = {
         "image":"Rebecca.JPG",
         "email":"rmtolmach@gmail.com",
         "companyId":7,
-        "bio":"Rebecca Tolmach was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Rebecca Tolmach was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":84,
@@ -1009,7 +1175,9 @@ module.exports = {
         "image":"SarahT.JPG",
         "email":"trowbrsa@gmail.com",
         "companyId":9,
-        "bio":"Sarah Trowbridge was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Sarah Trowbridge was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       },
       {
         "id":85,
@@ -1021,7 +1189,9 @@ module.exports = {
         "image":"Hailey.JPG",
         "email":"haileyw@gmail.com",
         "companyId":1,
-        "bio":"Hailey Willis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things."
+        "bio":"Hailey Willis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "createdAt": new Date(),
+        "updatedAt": new Date()
       }
     ], {});
   },
