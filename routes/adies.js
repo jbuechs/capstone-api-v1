@@ -19,7 +19,35 @@ router.get('/:id', lookupAdie, function(req, res) {
 });
 
 // POST to adies/ path
-router.post('/', function(req, res) { });
+router.post('/', function(req, res) { 
+	// TODO: Validate incoming data
+	db.adie
+		.create(
+		{
+			name: req.body.name,
+			cohort: req.body.cohort,
+			github_username: req.body.github_username,
+			twitter: req.body.twitter,
+			linked_in_url: req.body.linked_in_url,
+			image: req.body.image,
+			email: req.body.email,
+			bio: req.body.bio,
+		}, 
+		{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
+		.then(function(adie){
+			// return adie info like a GET
+			adie.get({
+				plain: true,
+			});
+		})
+		.catch(function(err) {
+			console.error(err);
+			res.statusCode = 500;
+      return res.json({
+        errors: ['Failed to create Adie']
+      });
+		});
+});
 
 // PATCH to adies/:id path
 router.patch('/:id', lookupAdie, function(req, res){
@@ -28,7 +56,6 @@ router.patch('/:id', lookupAdie, function(req, res){
 
 // DELETE to adies/:id path
 router.delete('/:id', lookupAdie, function(req, res){
-	// eval(pry.it);
 	db.adie.destroy({
 		where: { id : req.params.id }
 	})
