@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
 });
 
 // GET adies/:id path
-router.get('/:id', lookupAdie, function(req, res) {
+router.get('/:id([0-9]+)', lookupAdie, function(req, res) {
 	res.json(req.data);
 });
 
@@ -47,7 +47,7 @@ router.post('/', function(req, res) {
 });
 
 // PATCH to adies/:id path
-router.patch('/:id', lookupAdie, function(req, res){
+router.patch('/:id([0-9]+)', lookupAdie, function(req, res){
 	req.data.update({
 		name: req.body.name,
 		cohort: req.body.cohort,
@@ -73,7 +73,7 @@ router.patch('/:id', lookupAdie, function(req, res){
 });
 
 // DELETE to adies/:id path
-router.delete('/:id', lookupAdie, function(req, res){
+router.delete('/:id([0-9]+)', lookupAdie, function(req, res){
 	db.adie.destroy({
 		where: { id : req.params.id }
 	})

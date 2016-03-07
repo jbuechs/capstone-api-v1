@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
 });
 
 // GET companies/:id path
-router.get('/:id', lookupCompany, function(req, res) {
+router.get('/:id([0-9]+)', lookupCompany, function(req, res) {
 	res.json(req.data);
 });
 
@@ -46,7 +46,7 @@ router.post('/', function(req, res) {
 });
 
 // PATCH to companies/:id path
-router.patch('/:id', lookupCompany, function(req, res){
+router.patch('/:id([0-9]+)', lookupCompany, function(req, res){
 	req.data.update({
 		name: req.body.name,
 		street: req.body.street,
@@ -73,7 +73,7 @@ router.patch('/:id', lookupCompany, function(req, res){
 });
 
 // DELETE to companies/:id path
-router.delete('/:id', lookupCompany, function(req, res){
+router.delete('/:id([0-9]+)', lookupCompany, function(req, res){
 	db.company.destroy({
 		where: { id : req.params.id }
 	})

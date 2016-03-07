@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
 });
 
 // GET employees/:id path
-router.get('/:id', lookupEmployee, function(req, res) {
+router.get('/:id([0-9]+)', lookupEmployee, function(req, res) {
 	res.json(req.data);
 });
 
@@ -45,7 +45,7 @@ router.post('/', function(req, res) {
 });
 
 // PATCH to employees/:id path
-router.patch('/:id', lookupEmployee, function(req, res){
+router.patch('/:id([0-9]+)', lookupEmployee, function(req, res){
 	req.data.update({
 		name: req.body.name,
 		position: req.body.position,
@@ -69,7 +69,7 @@ router.patch('/:id', lookupEmployee, function(req, res){
 });
 
 // DELETE to employees/:id path
-router.delete('/:id', lookupEmployee, function(req, res){
+router.delete('/:id([0-9]+)', lookupEmployee, function(req, res){
 	db.employee.destroy({
 		where: { id : req.params.id }
 	})
