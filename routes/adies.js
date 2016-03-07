@@ -33,14 +33,16 @@ router.post('/', function(req, res) {
 		{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
 		.then(function(adie){
 			return res.json(
-				{ message: ['Adie created!'],
+				{ messages: ['Adie created!'],
 					data: adie.get({ plain: true, })
 				});
 		})
 		.catch(function(err) {
 			console.error(err);
 			res.statusCode = 500;
-      return res.json({ errors: ['Failed to create Adie']});
+      return res.json({ 
+      	messages: ['Failed to create Adie'],
+      	errors: err.errors });
 		});
 });
 
@@ -59,7 +61,7 @@ router.patch('/:id', lookupAdie, function(req, res){
 	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
 	.then(function(updatedAdie){
 		return res.json(
-		{ message: ['Adie updated!'],
+		{ messages: ['Adie updated!'],
 			data: updatedAdie.get({ plain: true, })
 		});
 	})
@@ -76,7 +78,7 @@ router.delete('/:id', lookupAdie, function(req, res){
 		where: { id : req.params.id }
 	})
 	.then(function() {
-		return res.json({ message: ['Adie successfully deleted']});
+		return res.json({ messages: ['Adie successfully deleted']});
 	})
 	.catch(function() {
 		console.error(err);
