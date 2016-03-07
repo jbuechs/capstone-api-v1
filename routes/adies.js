@@ -36,16 +36,16 @@ router.post('/', function(req, res) {
 		{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
 		.then(function(adie){
 			// return adie info like a GET
-			adie.get({
-				plain: true,
-			});
+			// eval(pry.it);
+			return res.json({ message: ['Adie created!'],
+					data: adie.get({ plain: true, })
+				});
+			// return res.json({ message: ['Adie created!']});
 		})
 		.catch(function(err) {
 			console.error(err);
 			res.statusCode = 500;
-      return res.json({
-        errors: ['Failed to create Adie']
-      });
+      return res.json({ errors: ['Failed to create Adie']});
 		});
 });
 
