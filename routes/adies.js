@@ -45,43 +45,29 @@ router.post('/', function(req, res) {
 });
 
 // PATCH to adies/:id path
-router.patch('/:id', function(req, res){
-	db.adie.findById(req.params.id)
-		.then(function(adie) {
-			if (adie === null) {
-				res.statusCode = 404;
-      	return res.json({ errors: ['Adie not found']});
-			}
-			adie.update({
-				name: req.body.name,
-				cohort: req.body.cohort,
-				github_username: req.body.github_username,
-				twitter: req.body.twitter,
-				linked_in_url: req.body.linked_in_url,
-				image: req.body.image,
-				email: req.body.email,
-				bio: req.body.bio,
-
-			}, 
-			{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
-			.then(function(updatedAdie){
-				return res.json(
-				{ message: ['Adie updated!'],
-					data: updatedAdie.get({ plain: true, })
-				});
-			})
-			.catch(function(err){
-				console.error(err);
-				res.statusCode = 500;
-				return res.json({ errors: ['Could not update adie'] });
-			});
-		})
-		// need to write a mock that tests this
-		.catch(function(err) {
-			console.error(err);
-			res.statusCode = 500;
-			return res.json({ errors: ['Could not retrieve adie'] });
+router.patch('/:id', lookupAdie, function(req, res){
+	req.data.update({
+		name: req.body.name,
+		cohort: req.body.cohort,
+		github_username: req.body.github_username,
+		twitter: req.body.twitter,
+		linked_in_url: req.body.linked_in_url,
+		image: req.body.image,
+		email: req.body.email,
+		bio: req.body.bio,
+	}, 
+	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
+	.then(function(updatedAdie){
+		return res.json(
+		{ message: ['Adie updated!'],
+			data: updatedAdie.get({ plain: true, })
 		});
+	})
+	.catch(function(err){
+		console.error(err);
+		res.statusCode = 500;
+		return res.json({ errors: err.errors });
+	});
 });
 
 // DELETE to adies/:id path
