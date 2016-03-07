@@ -4,7 +4,6 @@ module.exports = {
     return queryInterface.bulkInsert('employees', 
       [
         {
-          "id":1,
           "name":"Aisha Mathews",
           "position":"Early Career Programs Recruiter",
           "email":"amathews@expedia.com",
@@ -16,7 +15,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":2,
           "name":"Nasreen Abdulijaleel",
           "position":"Technology Director",
           "email":"nabduljaleel@expedia.com",
@@ -28,7 +26,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":3,
           "name":"Kelsey Foley",
           "position":"Sr. SDET/Software Engineer",
           "email":"kelsey@moz.com",
@@ -40,7 +37,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":4,
           "name":"David Weiser",
           "position":"Software Engneer",
           "email":"davidann@moz.com",
@@ -52,7 +48,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":5,
           "name":"Adam Edwards",
           "position":"Engineering General Manager",
           "email":"adamed@chef.io",
@@ -64,7 +59,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":6,
           "name":"Wendy McIntosh",
           "position":"Director; Global Talent/Recruiting",
           "email":"mcintoshw@getchef.com",
@@ -76,7 +70,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":7,
           "name":"Davida Marion",
           "position":"Software Development Engineer",
           "email":"",
@@ -88,7 +81,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":8,
           "name":"Naomi Choi",
           "position":"HR Program Manager",
           "email":"naomi.choi@isilon.com",
@@ -100,7 +92,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":9,
           "name":"Joe Goldberg",
           "position":"Customer Engineering Team Lead",
           "email":"joe@energysavvy.com",
@@ -112,7 +103,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":10,
           "name":"Robin Clowers",
           "position":"Lead Developer",
           "email":"robin@substantial.com",
@@ -124,7 +114,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":11,
           "name":"Aaron Jenson",
           "position":"Lead Developer",
           "email":"aaron@substantial.com",
@@ -136,7 +125,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":12,
           "name":"Eleni Adams",
           "position":"Vice President Operations",
           "email":"eleni@substantial.com",
@@ -148,7 +136,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":13,
           "name":"Carol Lin",
           "position":"Senior Development Manager",
           "email":"",
@@ -160,7 +147,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":14,
           "name":"Maddie Harris",
           "position":"SDE",
           "email":"",
@@ -172,7 +158,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":15,
           "name":"Liz Symes",
           "position":"University Recruiting Program Manager",
           "email":"lizs@zillow.com",
@@ -184,7 +169,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":16,
           "name":"Alan Chappell",
           "position":"Senior Development Engineer",
           "email":"alan.chappell@pnnl.gov",
@@ -196,7 +180,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":17,
           "name":"William Smith",
           "position":"Scientist Engineer 3",
           "email":"",
@@ -208,7 +191,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":18,
           "name":"Gordon Brown",
           "position":"Director of Engineering",
           "email":"gordon.brown@redfin.com",
@@ -220,7 +202,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":19,
           "name":"Sarah Fisher",
           "position":"Human Resources: Campus Recruiting",
           "email":"",
@@ -232,7 +213,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":20,
           "name":"Trevor Smith",
           "position":"Brand Specialist",
           "email":"trevsmit@amazon.com",
@@ -244,7 +224,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":21,
           "name":"Melissa Mackie",
           "position":"Diversity Recruiting Program Manager",
           "email":"mackiem@amazon.com",
@@ -256,7 +235,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":22,
           "name":"Joon Chuah",
           "position":"Software Development Engineer",
           "email":"jhchuah@amazon.com",
@@ -268,7 +246,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":23,
           "name":"Arielle Allen",
           "position":"Technical IT Manager",
           "email":"",
@@ -280,7 +257,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":24,
           "name":"Rob Gruhl",
           "position":"Senior Technical Program & Product Manager, Personalization",
           "email":"",
@@ -292,7 +268,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":25,
           "name":"Gina Schmalzle",
           "position":"Data Scientist",
           "email":"",
@@ -304,7 +279,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":26,
           "name":"Khyati Vyas",
           "position":"Senior Technical Product Manager",
           "email":"",
@@ -316,7 +290,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":27,
           "name":"Karim Meghji",
           "position":"Head of Product",
           "email":"karim.meghji@booking.com",
@@ -328,7 +301,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":28,
           "name":"Colleen Briant",
           "position":"",
           "email":"colleen.briant@booking.com",
@@ -340,7 +312,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":29,
           "name":"Nicolette Graham",
           "position":"TM Programs Coordinator",
           "email":"Nicolette.Graham@concur.com",
@@ -352,7 +323,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":30,
           "name":"Justin Kramer",
           "position":"Senior Director of Development, Mobile",
           "email":"Justin.Kramer@concur.com",
@@ -364,7 +334,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":31,
           "name":"Angela Bultemeier",
           "position":"Vice President of Product Development",
           "email":"Angela.Bultemeier@envestnet.com",
@@ -376,7 +345,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":32,
           "name":"Joel Nethery",
           "position":"HR Coordinator",
           "email":"Joel.Nethery@gettyimages.com",
@@ -388,7 +356,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":33,
           "name":"Ian Thomas",
           "position":"Director of Application Development",
           "email":"ian.thomas@gettyimages.com",
@@ -400,7 +367,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":34,
           "name":"Christy Pope",
           "position":"Senior Software Engineer",
           "email":"christy.pope@gettyimages.com",
@@ -412,7 +378,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":35,
           "name":"Ken Parker",
           "position":"Director of Engineering",
           "email":"kenp@indeed.com",
@@ -424,7 +389,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":36,
           "name":"Lily Webb",
           "position":"Finance and Human Resources Manager",
           "email":"Lily.Webb@indigoslate.com",
@@ -436,7 +400,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":37,
           "name":"Jeff House",
           "position":"Director of Engineering",
           "email":"Jeff.House@indigoslate.com",
@@ -448,7 +411,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":38,
           "name":"Jennifer Rance",
           "position":"Community Relations Manager",
           "email":"v-jerance@microsoft.com",
@@ -460,7 +422,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":39,
           "name":"Vanessa Filliberti",
           "position":"Partner General Engineering Manager",
           "email":"vanessaf@exchange.microsoft.com",
@@ -472,7 +433,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":40,
           "name":"Chris Burroughs",
           "position":"Test Manager",
           "email":"chris.burroughs@microsoft",
@@ -484,7 +444,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":41,
           "name":"Jewel von Kempf",
           "position":"HR Manager",
           "email":"jvonkempf@skytap.com",
@@ -496,7 +455,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":42,
           "name":"Scott Brady",
           "position":"Web UI Team Lead",
           "email":"sbrady@skytap.com",
@@ -508,7 +466,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":43,
           "name":"Matt Mehlhope",
           "position":"Senior Engineer Web UI",
           "email":"mmehlhope@skytap.com",
@@ -520,7 +477,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":44,
           "name":"Jill Domanico",
           "position":"VP of Talent",
           "email":"jdomanico@skytap.com",
@@ -532,7 +488,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":45,
           "name":"Urmila Nadkarni",
           "position":"Software Engineer",
           "email":"urmila.nadkarni@socrata.com",
@@ -544,7 +499,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":46,
           "name":"Jovana Teodorovic",
           "position":"Director of Talent",
           "email":"jovana.teodorovic@socrata.com",
@@ -556,7 +510,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":47,
           "name":"Franklin Williams",
           "position":"Development Manager",
           "email":"franklin.williams@socrata.com",
@@ -568,7 +521,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":48,
           "name":"Daryn Nakhuda",
           "position":"Co-Founder",
           "email":"daryn@spare5.com",
@@ -580,7 +532,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":49,
           "name":"Tom Dabson",
           "position":"Engineering Director",
           "email":"tom@artefactgroup.com",
@@ -592,7 +543,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":50,
           "name":"Dave Miller",
           "position":"Recruiting",
           "email":"davemiller@artefactgroup.com",
@@ -604,7 +554,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":51,
           "name":"Masuma Henry",
           "position":"Executive Director",
           "email":"Masuma@artefactgroup.com",
@@ -616,7 +565,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":52,
           "name":"Shane Currier",
           "position":"Director of Development",
           "email":"shane@enlearn.org",
@@ -628,7 +576,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":53,
           "name":"Paul Ellis",
           "position":"Director of Product",
           "email":"",
@@ -640,7 +587,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":54,
           "name":"Hasmik Tananyan",
           "position":"Software Engineer",
           "email":"",
@@ -652,7 +598,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":55,
           "name":"Jennifer Biely",
           "position":"Finance and Human Resources Manager",
           "email":"jennifer@enlearn.org",
@@ -664,7 +609,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":56,
           "name":"Alison Bower",
           "position":"Internal Education Manager",
           "email":"alison@enlearn.org",
@@ -676,7 +620,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":57,
           "name":"Maria Ray",
           "position":"Sr. Director, Cloud Integration",
           "email":"maria.ray@ctl.io",
@@ -688,7 +631,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":58,
           "name":"Dana Bowlin",
           "position":"Director, CenturyLink Cloud",
           "email":"dana.bowlin@ctl.io",
@@ -700,7 +642,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":59,
           "name":"Doug Cole",
           "position":"Founder & CTO",
           "email":"doug@estately.com",
@@ -712,7 +653,6 @@ module.exports = {
           "updatedAt":new Date()
         },
         {
-          "id":60,
           "name":"David Weiser",
           "position":"Software Engneer",
           "email":"davidann@moz.com",
