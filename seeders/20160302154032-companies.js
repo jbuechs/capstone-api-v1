@@ -4,7 +4,6 @@ module.exports = {
     return queryInterface.bulkInsert("companies",
       [
         {
-          "id":1,
           "name":"Expedia",
           "street":"",
           "city":"Bellevue",
@@ -16,7 +15,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":2,
           "name":"Moz",
           "street":"1100 2nd Ave #500",
           "city":"Seattle",
@@ -28,7 +26,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":3,
           "name":"Liquid Planner",
           "street":"2324 Eastlake Ave E #500",
           "city":"Seattle",
@@ -40,7 +37,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":4,
           "name":"Marchex",
           "street":"520 Pike St # 2000",
           "city":"Seattle",
@@ -52,7 +48,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":5,
           "name":"Apex Learning Inc.",
           "street":"1215 4th Ave #1500",
           "city":"Seattle",
@@ -64,7 +59,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":6,
           "name":"Chef Software",
           "street":"619 Western Ave",
           "city":"Seattle",
@@ -76,7 +70,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":7,
           "name":"EMC Isilon Systems Inc",
           "street":"505 1st Avenue South",
           "city":"Seattle",
@@ -88,7 +81,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":8,
           "name":"RealPage",
           "street":"",
           "city":"",
@@ -100,7 +92,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":9,
           "name":"EnergySavvy",
           "street":"159 S Jackson St #420",
           "city":"Seattle",
@@ -112,7 +103,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":10,
           "name":"Substantial",
           "street":"900 E Pine St #202",
           "city":"Seattle",
@@ -124,7 +114,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":11,
           "name":"Foundry Interactive",
           "street":"318 1st Avenue South #200",
           "city":"Seattle",
@@ -136,7 +125,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":12,
           "name":"Zillow",
           "street":"31, 1301 2nd Ave",
           "city":"Seattle",
@@ -148,7 +136,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":13,
           "name":"NIRD",
           "street":"1517 12th Ave #201",
           "city":"Seattle",
@@ -160,7 +147,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":14,
           "name":"Pacific Northwest National Laboratory",
           "street":"1100 Dexter Ave N # 400",
           "city":"Seattle",
@@ -172,7 +158,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":15,
           "name":"Redfin",
           "street":"2025 1st Ave #500",
           "city":"Seattle",
@@ -184,7 +169,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":16,
           "name":"Amazon",
           "street":"440 Terry Ave N",
           "city":"Seattle",
@@ -196,7 +180,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":17,
           "name":"Nordstrom",
           "street":"1617 6th Ave",
           "city":"Seattle",
@@ -208,7 +191,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":18,
           "name":"General UI",
           "street":"3417 Evanston Ave N #501",
           "city":"Seattle",
@@ -220,7 +202,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":19,
           "name":"BookingSuite",
           "street":"220 W Mercer St #500",
           "city":"Seattle",
@@ -232,7 +213,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":20,
           "name":"Concur",
           "street":"601 108th Ave NE #1000",
           "city":"Bellevue",
@@ -244,7 +224,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":21,
           "name":"Envestnet",
           "street":"701 5th Ave",
           "city":"Seattle",
@@ -256,7 +235,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":22,
           "name":"Getty Images",
           "street":"605 5th Ave S Suite 400",
           "city":"Seattle",
@@ -268,7 +246,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":23,
           "name":"Indeed",
           "street":"",
           "city":"",
@@ -280,7 +257,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":24,
           "name":"Indigo Slate",
           "street":"2475 140th Ave NE",
           "city":"Bellevue",
@@ -292,7 +268,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":25,
           "name":"Microsoft",
           "street":"1 Microsoft Way",
           "city":"Redmond",
@@ -304,7 +279,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":26,
           "name":"Skytap",
           "street":"719 2nd Ave",
           "city":"Seattle",
@@ -316,7 +290,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":27,
           "name":"Socrata",
           "street":"83 S King St #107",
           "city":"Seattle",
@@ -328,7 +301,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":28,
           "name":"Spare5",
           "street":"",
           "city":"",
@@ -340,7 +312,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":29,
           "name":"Tune",
           "street":"2220 Western Ave",
           "city":"Seattle",
@@ -352,7 +323,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":30,
           "name":"Artefact",
           "street":"619 Western Ave #500",
           "city":"Seattle",
@@ -364,7 +334,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":31,
           "name":"Enlearn",
           "street":"2815 Eastlake Ave E #135",
           "city":"Seattle",
@@ -376,7 +345,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":32,
           "name":"CenturyLink",
           "street":"1600 7th Ave",
           "city":"Seattle",
@@ -388,7 +356,6 @@ module.exports = {
           "updatedAt": new Date()
         },
         {
-          "id":33,
           "name":"Estately",
           "street":"1809 1550 7th Ave",
           "city":"Seattle",

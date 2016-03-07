@@ -4,7 +4,6 @@ module.exports = {
     return queryInterface.bulkInsert('adies', 
     [
       {
-        "id":1,
         "name":"Audrey Carlsen",
         "cohort":1,
         "github_username":"audreycarlsen",
@@ -14,11 +13,10 @@ module.exports = {
         "email":"foo1@bar.com",
         "companyId":3,
         "bio":"Audrey Carlsen was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":2,
         "name":"Asha Golveo",
         "cohort":1,
         "github_username":"ashag",
@@ -28,11 +26,10 @@ module.exports = {
         "email":"agolveo@gmail.com",
         "companyId":2,
         "bio":"Asha Golveo was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":3,
         "name":"Shadae Holmes",
         "cohort":1,
         "github_username":"",
@@ -42,11 +39,10 @@ module.exports = {
         "email":"shadaeholmes@gmail.com",
         "companyId":11,
         "bio":"Shadae Holmes was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":4,
         "name":"Hsing-Hui Hsu",
         "cohort":1,
         "github_username":"Elffers",
@@ -56,11 +52,10 @@ module.exports = {
         "email":"hhhsu1@gmail.com",
         "companyId":7,
         "bio":"Hsing-Hui Hsu was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":5,
         "name":"Blake Johnson",
         "cohort":1,
         "github_username":"",
@@ -70,11 +65,10 @@ module.exports = {
         "email":"foo2@bar.com",
         "companyId":4,
         "bio":"Blake Johnson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":6,
         "name":"Anne Kimsey",
         "cohort":1,
         "github_username":"AKimZ",
@@ -84,11 +78,10 @@ module.exports = {
         "email":"foo3@bar.com",
         "companyId":1,
         "bio":"Anne Kimsey was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":7,
         "name":"Whitney-Rose Levis",
         "cohort":1,
         "github_username":"roseaboveit",
@@ -98,11 +91,10 @@ module.exports = {
         "email":"ms.whitney.levis@gmail.com",
         "companyId":13,
         "bio":"Whitney-Rose Levis was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":8,
         "name":"Davida Marion",
         "cohort":1,
         "github_username":"Sgtpluck",
@@ -112,11 +104,10 @@ module.exports = {
         "email":"davidamarion@gmail.com",
         "companyId":6,
         "bio":"Davida Marion was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":9,
         "name":"Melinda Mizuta",
         "cohort":1,
         "github_username":"mkmizuta",
@@ -126,11 +117,10 @@ module.exports = {
         "email":"foo4@bar.com",
         "companyId":1,
         "bio":"Melinda Mizuta was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":10,
         "name":"Liz Rush",
         "cohort":1,
         "github_username":"",
@@ -140,11 +130,10 @@ module.exports = {
         "email":"liz@lizmrush.com",
         "companyId":10,
         "bio":"Liz Rush was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":11,
         "name":"Christina Thompson",
         "cohort":1,
         "github_username":"",
@@ -154,11 +143,10 @@ module.exports = {
         "email":"c.thompsonms@gmail.com",
         "companyId":5,
         "bio":"Christina Thompson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":12,
         "name":"Elizabeth Uselton",
         "cohort":1,
         "github_username":"ElizabethU",
@@ -168,11 +156,10 @@ module.exports = {
         "email":"foo5@bar.com",
         "companyId":7,
         "bio":"Elizabeth Uselton was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":13,
         "name":"Sue White",
         "cohort":1,
         "github_username":"",
@@ -182,11 +169,10 @@ module.exports = {
         "email":"sue@mailworks.org",
         "companyId":12,
         "bio":"Sue White was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":14,
         "name":"Ellen Wondra-Lindley",
         "cohort":1,
         "github_username":"shanghaiellen",
@@ -196,11 +182,10 @@ module.exports = {
         "email":"foo6@bar.com",
         "companyId":8,
         "bio":"Ellen Wondra-Lindley was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":15,
         "name":"Galina Yermicheva",
         "cohort":1,
         "github_username":"gyermich",
@@ -210,11 +195,10 @@ module.exports = {
         "email":"foo7@bar.com",
         "companyId":9,
         "bio":"Galina Yermicheva was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":16,
         "name":"Rachel Adler",
         "cohort":2,
         "github_username":"",
@@ -224,11 +208,10 @@ module.exports = {
         "email":"rmoshier@gmail.com",
         "companyId":6,
         "bio":"Rachel Adler was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":17,
         "name":"Richa Arora",
         "cohort":2,
         "github_username":"ricarora",
@@ -238,11 +221,10 @@ module.exports = {
         "email":"ricarora@gmail.com",
         "companyId":1,
         "bio":"Richa Arora was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":18,
         "name":"Katie Bosch",
         "cohort":2,
         "github_username":"",
@@ -252,11 +234,10 @@ module.exports = {
         "email":"kab761@gmail.com",
         "companyId":2,
         "bio":"Katie Bosch was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":19,
         "name":"Linnea Damer",
         "cohort":2,
         "github_username":"lkdamer",
@@ -266,11 +247,10 @@ module.exports = {
         "email":"lkdamer@gmail.com",
         "companyId":7,
         "bio":"Linnea Damer was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":20,
         "name":"Bri Dotson",
         "cohort":2,
         "github_username":"",
@@ -280,11 +260,10 @@ module.exports = {
         "email":"bridotson@gmail.com",
         "companyId":9,
         "bio":"Bri Dotson was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":21,
         "name":"Kate Fulton",
         "cohort":2,
         "github_username":"KF525",
@@ -294,11 +273,10 @@ module.exports = {
         "email":"katesuzannefulton@gmail.com",
         "companyId":4,
         "bio":"Kate Fulton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":22,
         "name":"Kristina Hjertberg",
         "cohort":2,
         "github_username":"",
@@ -308,11 +286,10 @@ module.exports = {
         "email":"hjert.k@gmail.com",
         "companyId":10,
         "bio":"Kristina Hjertberg was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":23,
         "name":"Kamilah Jenkins",
         "cohort":2,
         "github_username":"kamilahjae",
@@ -322,11 +299,10 @@ module.exports = {
         "email":"kamilah.jenkins@gmail.com",
         "companyId":7,
         "bio":"Kamilah Jenkins was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":24,
         "name":"Rachelle Keblitis",
         "cohort":2,
         "github_username":"rkeblitis",
@@ -336,11 +312,10 @@ module.exports = {
         "email":"rkeblitis@gmail.com",
         "companyId":16,
         "bio":"Rachelle Keblitis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":25,
         "name":"Stephanie Kwak",
         "cohort":2,
         "github_username":"skwak",
@@ -350,11 +325,10 @@ module.exports = {
         "email":"eskay@ghadibalo.com",
         "companyId":17,
         "bio":"Stephanie Kwak was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":26,
         "name":"Bonnie Kwong",
         "cohort":2,
         "github_username":"",
@@ -364,11 +338,10 @@ module.exports = {
         "email":"kbonnie@gmail.com",
         "companyId":1,
         "bio":"Bonnie Kwong was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":27,
         "name":"Holly Leary",
         "cohort":2,
         "github_username":"",
@@ -378,11 +351,10 @@ module.exports = {
         "email":"schleary@gmail.com",
         "companyId":5,
         "bio":"Holly Leary was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":28,
         "name":"Rebecca Mark",
         "cohort":2,
         "github_username":"",
@@ -392,11 +364,10 @@ module.exports = {
         "email":"rebecca.lmark@gmail.com",
         "companyId":4,
         "bio":"Rebecca Mark was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":29,
         "name":"Kristen McCabe",
         "cohort":2,
         "github_username":"",
@@ -406,11 +377,10 @@ module.exports = {
         "email":"kmccabe3@gmail.com",
         "companyId":16,
         "bio":"Kristen McCabe was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":30,
         "name":"Lily Pace",
         "cohort":2,
         "github_username":"",
@@ -420,11 +390,10 @@ module.exports = {
         "email":"lilyfpace@gmail.com",
         "companyId":18,
         "bio":"Lily Pace was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":31,
         "name":"Calla Patel",
         "cohort":2,
         "github_username":"callapatel",
@@ -434,11 +403,10 @@ module.exports = {
         "email":"callapatel@gmail.com",
         "companyId":1,
         "bio":"Calla Patel was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":32,
         "name":"Katherine Patke",
         "cohort":2,
         "github_username":"katke",
@@ -448,11 +416,10 @@ module.exports = {
         "email":"kmmpatke@gmail.com",
         "companyId":17,
         "bio":"Katherine Patke was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":33,
         "name":"Crystal Perreira",
         "cohort":2,
         "github_username":"crystalperreira",
@@ -462,11 +429,10 @@ module.exports = {
         "email":"cvperreira@gmail.com",
         "companyId":16,
         "bio":"Crystal Perreira was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":34,
         "name":"Stephanie Pi",
         "cohort":2,
         "github_username":"piinthecloud",
@@ -476,11 +442,10 @@ module.exports = {
         "email":"stephmpi@gmail.com",
         "companyId":16,
         "bio":"Stephanie Pi was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":35,
         "name":"Brenda Praggastis",
         "cohort":2,
         "github_username":"bpraggastis",
@@ -490,11 +455,10 @@ module.exports = {
         "email":"bpraggastis@gmail.com",
         "companyId":14,
         "bio":"Brenda Praggastis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":36,
         "name":"Allie Sterling",
         "cohort":2,
         "github_username":"ahsterling",
@@ -504,11 +468,10 @@ module.exports = {
         "email":"sterling.allie@gmail.com",
         "companyId":12,
         "bio":"Allie Sterling was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":37,
         "name":"Cate Uselton",
         "cohort":2,
         "github_username":"catstavi",
@@ -518,11 +481,10 @@ module.exports = {
         "email":"cathode.use@gmail.com",
         "companyId":15,
         "bio":"Cate Uselton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":38,
         "name":"Alice Rhomieux",
         "cohort":3,
         "github_username":"arhx",
@@ -532,11 +494,10 @@ module.exports = {
         "email":"alice.rhomieux@gmail.com",
         "companyId":16,
         "bio":"Alice Rhomieux was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":39,
         "name":"Amira Hailemariam",
         "cohort":3,
         "github_username":"amirahaile",
@@ -546,11 +507,10 @@ module.exports = {
         "email":"AWatkins31@gmail.com",
         "companyId":20,
         "bio":"Amira Hailemariam was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":40,
         "name":"Anita Wang",
         "cohort":3,
         "github_username":"acmei",
@@ -560,11 +520,10 @@ module.exports = {
         "email":"michellemccarthy@hotmail.com",
         "companyId":27,
         "bio":"Anita Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":41,
         "name":"Ashley Watkins",
         "cohort":3,
         "github_username":"catchingash",
@@ -574,11 +533,10 @@ module.exports = {
         "email":"drvonnjerryxlii@gmail.com",
         "companyId":23,
         "bio":"Ashley Watkins was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":42,
         "name":"Brandi Wilson",
         "cohort":3,
         "github_username":"QuartzBrandi",
@@ -588,11 +546,10 @@ module.exports = {
         "email":"camarleigh@gmail.com",
         "companyId":26,
         "bio":"Brandi Wilson was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":43,
         "name":"Brenna Leker",
         "cohort":3,
         "github_username":"Brennaleker",
@@ -602,11 +559,10 @@ module.exports = {
         "email":"loraine@lorainekv.com",
         "companyId":15,
         "bio":"Brenna Leker was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":44,
         "name":"Brittany Walentin",
         "cohort":3,
         "github_username":"brittinator",
@@ -616,11 +572,10 @@ module.exports = {
         "email":"elgrenier@gmail.com",
         "companyId":1,
         "bio":"Brittany Walentin was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":45,
         "name":"Carly Jugler",
         "cohort":3,
         "github_username":"carjug",
@@ -630,11 +585,10 @@ module.exports = {
         "email":"asovay@gmail.com",
         "companyId":19,
         "bio":"Carly Jugler was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":46,
         "name":"Corinne Pingul",
         "cohort":3,
         "github_username":"corinnepingul",
@@ -644,11 +598,10 @@ module.exports = {
         "email":"corinnepingul@gmail.com",
         "companyId":1,
         "bio":"Corinne Pingul was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":47,
         "name":"Elia Grenier",
         "cohort":3,
         "github_username":"EliaMG",
@@ -658,11 +611,10 @@ module.exports = {
         "email":"sallyamoore@gmail.com",
         "companyId":28,
         "bio":"Elia Grenier was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":48,
         "name":"Elsa Moluf",
         "cohort":3,
         "github_username":"elsamoluf",
@@ -672,11 +624,10 @@ module.exports = {
         "email":"shannachau@gmail.com",
         "companyId":11,
         "bio":"Elsa Moluf was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":49,
         "name":"Jeri Sommers",
         "cohort":3,
         "github_username":"drvonnjerryxlii",
@@ -686,11 +637,10 @@ module.exports = {
         "email":"katrops@gmail.com",
         "companyId":25,
         "bio":"Jeri Sommers was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":50,
         "name":"Kari Lonczak",
         "cohort":3,
         "github_username":"lo-k",
@@ -700,11 +650,10 @@ module.exports = {
         "email":"amira.dhaile@gmail.com",
         "companyId":16,
         "bio":"Kari Lonczak was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":51,
         "name":"Katie Atrops",
         "cohort":3,
         "github_username":"ktrops",
@@ -714,11 +663,10 @@ module.exports = {
         "email":"brittany.walentin@gmail.com",
         "companyId":21,
         "bio":"Katie Atrops was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":52,
         "name":"Kyna Nguyen",
         "cohort":3,
         "github_username":"knguyen0710",
@@ -728,11 +676,10 @@ module.exports = {
         "email":"wilson.e.brandi@gmail.com",
         "companyId":20,
         "bio":"Kyna Nguyen was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":53,
         "name":"Lila Garcia",
         "cohort":3,
         "github_username":"lilagrc",
@@ -742,11 +689,10 @@ module.exports = {
         "email":"elsa.moluf@gmail.com",
         "companyId":22,
         "bio":"Lila Garcia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":54,
         "name":"Lindsey Reno",
         "cohort":3,
         "github_username":"lindseyreno",
@@ -756,11 +702,10 @@ module.exports = {
         "email":"lindseyannereno@gmail.com",
         "companyId":2,
         "bio":"Lindsey Reno was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":55,
         "name":"Loraine Kanervisto",
         "cohort":3,
         "github_username":"lorainekv",
@@ -770,11 +715,10 @@ module.exports = {
         "email":"vikshab2010@hotmail.com",
         "companyId":29,
         "bio":"Loraine Kanervisto was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":56,
         "name":"Marleigh Chiles",
         "cohort":3,
         "github_username":"camarleigh",
@@ -784,11 +728,10 @@ module.exports = {
         "email":"lilagrc@gmail.com",
         "companyId":25,
         "bio":"Marleigh Chiles was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":57,
         "name":"Michelle McCarthy",
         "cohort":3,
         "github_username":"MisShellyMac",
@@ -798,11 +741,10 @@ module.exports = {
         "email":"kari.lonczak@gmail.com",
         "companyId":24,
         "bio":"Michelle McCarthy was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":58,
         "name":"Sally Moore",
         "cohort":3,
         "github_username":"sallyamoore",
@@ -812,11 +754,10 @@ module.exports = {
         "email":"brennarama@gmail.com",
         "companyId":9,
         "bio":"Sally Moore was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":59,
         "name":"Shanna Chau",
         "cohort":3,
         "github_username":"shannachau",
@@ -826,11 +767,10 @@ module.exports = {
         "email":"carjug@gmail.com",
         "companyId":1,
         "bio":"Shanna Chau was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":60,
         "name":"Viktoryia Shabunia",
         "cohort":3,
         "github_username":"vikshab",
@@ -840,11 +780,10 @@ module.exports = {
         "email":"khn710@gmail.com",
         "companyId":25,
         "bio":"Viktoryia Shabunia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":61,
         "name":"Wang (Loren) Wang",
         "cohort":3,
         "github_username":"wangg131",
@@ -854,11 +793,10 @@ module.exports = {
         "email":"wang131.131@gmail.com",
         "companyId":29,
         "bio":"Wang (Loren) Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":62,
         "name":"Risha Allen",
         "cohort":5,
         "github_username":"rishallen",
@@ -868,11 +806,10 @@ module.exports = {
         "email":"risha.a@hotmail.com",
         "companyId":null,
         "bio":"Risha Allen was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":63,
         "name":"Jennie Buechner",
         "cohort":4,
         "github_username":"jbuechs",
@@ -882,11 +819,10 @@ module.exports = {
         "email":"Janina.buechner@gmail.com",
         "companyId":30,
         "bio":"Jennie Buechner was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":64,
         "name":"Audrey Davis",
         "cohort":4,
         "github_username":"Dreedle",
@@ -896,11 +832,10 @@ module.exports = {
         "email":"davis.audrey.lynn@gmail.com",
         "companyId":17,
         "bio":"Audrey Davis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":65,
         "name":"Katherine Defliese",
         "cohort":4,
         "github_username":"kdefliese",
@@ -910,11 +845,10 @@ module.exports = {
         "email":"kdefliese@gmail.com",
         "companyId":1,
         "bio":"Katherine Defliese was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":66,
         "name":"Kelly Devlin",
         "cohort":4,
         "github_username":"Kedevlin",
@@ -924,11 +858,10 @@ module.exports = {
         "email":"kelly_devlin@alumni.brown.edu",
         "companyId":16,
         "bio":"Kelly Devlin was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":67,
         "name":"Daphne Gold",
         "cohort":4,
         "github_username":"daphnegold",
@@ -938,11 +871,10 @@ module.exports = {
         "email":"dg1181@nyu.edu",
         "companyId":16,
         "bio":"Daphne Gold was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":68,
         "name":"Emily Gordon",
         "cohort":4,
         "github_username":"emgord",
@@ -952,11 +884,10 @@ module.exports = {
         "email":"emgord@gmail.com",
         "companyId":26,
         "bio":"Emily Gordon was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":69,
         "name":"Lauren Granger",
         "cohort":4,
         "github_username":"lgranger",
@@ -966,11 +897,10 @@ module.exports = {
         "email":"Lr.granger21@gmail.com",
         "companyId":32,
         "bio":"Lauren Granger was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":70,
         "name":"Annalee Herrera",
         "cohort":4,
         "github_username":"annaleeherrera",
@@ -980,11 +910,10 @@ module.exports = {
         "email":"annaleeherrera@gmail.com",
         "companyId":33,
         "bio":"Annalee Herrera was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":71,
         "name":"Tamar Hershenbaum",
         "cohort":4,
         "github_username":"TamarHershi",
@@ -994,11 +923,10 @@ module.exports = {
         "email":"misstamar@gmail.com",
         "companyId":32,
         "bio":"Tamar Hershenbaum was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":72,
         "name":"Ricky Hougland",
         "cohort":4,
         "github_username":"hougland",
@@ -1008,11 +936,10 @@ module.exports = {
         "email":"houglande@gmail.com",
         "companyId":27,
         "bio":"Ricky Hougland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":73,
         "name":"Amy Hunter",
         "cohort":4,
         "github_username":"lacuchilla",
@@ -1022,11 +949,10 @@ module.exports = {
         "email":"amyrhunter@gmail.com",
         "companyId":31,
         "bio":"Amy Hunter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":74,
         "name":"Sarah Kane",
         "cohort":5,
         "github_username":"",
@@ -1036,11 +962,10 @@ module.exports = {
         "email":"sarahkane682@yahoo.com",
         "companyId":null,
         "bio":"Sarah Kane was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":75,
         "name":"Brittany Kohler",
         "cohort":4,
         "github_username":"brittanykohler",
@@ -1050,11 +975,10 @@ module.exports = {
         "email":"brittanykohler@gmail.com",
         "companyId":12,
         "bio":"Brittany Kohler was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":76,
         "name":"Logan McDonald",
         "cohort":4,
         "github_username":"loganmeetsworld",
@@ -1064,11 +988,10 @@ module.exports = {
         "email":"loganmcdona11@gmail.com",
         "companyId":6,
         "bio":"Logan McDonald was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":77,
         "name":"Jenna Nichols",
         "cohort":4,
         "github_username":"jennaplusplus",
@@ -1078,11 +1001,10 @@ module.exports = {
         "email":"jennic@utexas.edu",
         "companyId":15,
         "bio":"Jenna Nichols was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":78,
         "name":"Jessica Noglows",
         "cohort":4,
         "github_username":"noglows",
@@ -1092,11 +1014,10 @@ module.exports = {
         "email":"jessica.noglows@outlook.com",
         "companyId":14,
         "bio":"Jessica Noglows was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":79,
         "name":"Desiree Poland",
         "cohort":4,
         "github_username":"desireepoland",
@@ -1106,11 +1027,10 @@ module.exports = {
         "email":"desireepoland@gmail.com",
         "companyId":17,
         "bio":"Desiree Poland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":80,
         "name":"Meighan Rasley",
         "cohort":4,
         "github_username":"knaydee",
@@ -1120,11 +1040,10 @@ module.exports = {
         "email":"meighanr@gmail.com",
         "companyId":7,
         "bio":"Meighan Rasley was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":81,
         "name":"Claire Schechter",
         "cohort":4,
         "github_username":"CShekta",
@@ -1134,11 +1053,10 @@ module.exports = {
         "email":"ClaireS29@gmail.com",
         "companyId":2,
         "bio":"Claire Schechter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":82,
         "name":"Riley Spicer",
         "cohort":4,
         "github_username":"rileyrileyrose",
@@ -1148,11 +1066,10 @@ module.exports = {
         "email":"blankpagesandcoffeestains@gmail.com",
         "companyId":16,
         "bio":"Riley Spicer was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":83,
         "name":"Rebecca Tolmach",
         "cohort":4,
         "github_username":"rmtolmach",
@@ -1162,11 +1079,10 @@ module.exports = {
         "email":"rmtolmach@gmail.com",
         "companyId":7,
         "bio":"Rebecca Tolmach was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":84,
         "name":"Sarah Trowbridge",
         "cohort":4,
         "github_username":"trowbrsa",
@@ -1176,11 +1092,10 @@ module.exports = {
         "email":"trowbrsa@gmail.com",
         "companyId":9,
         "bio":"Sarah Trowbridge was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       },
       {
-        "id":85,
         "name":"Hailey Willis",
         "cohort":4,
         "github_username":"wesleywillis",
@@ -1190,8 +1105,8 @@ module.exports = {
         "email":"haileyw@gmail.com",
         "companyId":1,
         "bio":"Hailey Willis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt": new Date(),
-        "updatedAt": new Date()
+        "createdAt":new Date(),
+        "updatedAt":new Date()
       }
     ], {});
   },
