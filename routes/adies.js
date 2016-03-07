@@ -1,10 +1,7 @@
 /* jshint esnext:true */
-var pry = require('pryjs');
-
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
-// var pry = require('pryjs');
 
 // GET adies path
 router.get('/', function(req, res) {
