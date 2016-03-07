@@ -13,14 +13,29 @@ router.get('/', function(req, res) {
 });
 
 // GET adies/:id path
-router.get('/:id', function(req, res) {
+router.get('/:id', lookupAdie, function(req, res) {
+	res.json(req.data);
+});
+
+// POST to adies/ path
+router.post('/', function(req, res) { });
+
+// PATCH to adies/:id path
+
+
+// DELETE to adies/:id path
+
+
+// Lookup Adie by id
+function lookupAdie(req, res, next) {
 	db.adie.findById(req.params.id)
 		.then(function(adie) {
 			if (adie === null) {
 				res.statusCode = 404;
       	return res.json({ errors: ['Adie not found']});
 			}
-			res.send({data:adie});
+			req.data = adie;
+			next();
 		})
 		// need to write a mock that tests this
 		.catch(function(err) {
@@ -28,6 +43,6 @@ router.get('/:id', function(req, res) {
 			res.statusCode = 500;
 			return res.json({ errors: ['Could not retrieve adie'] });
 		});
-});
+}
 
 module.exports = router;
