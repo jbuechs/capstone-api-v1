@@ -1,6 +1,12 @@
 module.exports = function(sequelize, DataTypes) {
   'use strict';
   var adie = sequelize.define('adie', {
+    id: {
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+      type: DataTypes.INTEGER
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
