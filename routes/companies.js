@@ -57,10 +57,10 @@ router.patch('/:id', lookupCompany, function(req, res){
 		logo: req.body.logo,
 	}, 
 	{ fields: ['name', 'street', 'city', 'state', 'zip', 'website', 'logo']})
-	.then(function(updatedcompany){
+	.then(function(updatedCompany){
 		return res.json(
 		{ messages: ['Company updated!'],
-			data: updatedcompany.get({ plain: true, })
+			data: updatedCompany.get({ plain: true, })
 		});
 	})
 	.catch(function(err){
