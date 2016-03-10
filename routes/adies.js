@@ -2,10 +2,18 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
+// var jwt = require('express-jwt');
+
+// var jwtCheck = jwt({
+//   secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
+//   audience: process.env.AUTH0_CLIENT_ID
+// });
 
 // GET adies path
 router.get('/', function(req, res) {
-	db.adie.findAll()
+	db.adie.findAll({
+		attributes: { exclude: ['email', 'createdAt', 'updatedAt', 'github_username'] }
+	})
 		.then(adies => res.send({data:adies}));
 		// add catch for errors?
 });
@@ -17,7 +25,6 @@ router.get('/:id([0-9]+)', lookupAdie, function(req, res) {
 
 // POST to adies/ path
 router.post('/', function(req, res) { 
-	// TODO: Validate incoming data
 	db.adie
 		.create(
 		{
