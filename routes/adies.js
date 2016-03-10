@@ -2,20 +2,27 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
-// var jwt = require('express-jwt');
 
-// var jwtCheck = jwt({
-//   secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-//   audience: process.env.AUTH0_CLIENT_ID
-// });
+// TODO: See if I can dry the dotenv and jwt code up
+var dotenv = require('dotenv');
+var jwt = require('express-jwt');
+dotenv.load();
+var jwtCheck = jwt({
+  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
+  audience: process.env.AUTH0_CLIENT_ID,
+});
 
 // GET adies path
 router.get('/', function(req, res) {
-	db.adie.findAll({
-		attributes: { exclude: ['email', 'createdAt', 'updatedAt', 'github_username'] }
-	})
-		.then(adies => res.send({data:adies}));
-		// add catch for errors?
+	jwtCheck(req, res, function() {
+		console.log(req.user);
+		var exclusions = req.user ? ['createdAt', 'updatedAt'] : ['email', 'createdAt', 'updatedAt', 'github_username'];
+		db.adie.findAll({
+			attributes: { exclude: exclusions }
+				})
+					.then(adies => res.send({data:adies}));
+					// add catch for errors?
+	});
 });
 
 // GET adies/:id path
