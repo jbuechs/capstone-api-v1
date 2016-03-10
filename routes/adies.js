@@ -16,13 +16,6 @@ var jwtCheck = jwt({
 // GET adies path
 router.get('/', function(req, res) {
 	jwtCheck(req, res, function() {
-		// Need to check whether the github username is in database!
-		// eval(pry.it);
-		// var user = db.adie.findAll({
-		// 	where: {
-		// 		github_username: req.user.nickname
-		// 	}
-		// });
 		var exclusions = req.user ? ['createdAt', 'updatedAt'] : ['email', 'createdAt', 'updatedAt', 'github_username'];
 		db.adie.findAll({
 			attributes: { exclude: exclusions }

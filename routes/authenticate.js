@@ -8,43 +8,39 @@ dotenv.load();
 
 var pry = require('pryjs');
 
+var mySecret = new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64');
+
 //  Middleware for protecting routes...
-var requireAuth = expressJwt({
-	secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-  audience: process.env.AUTH0_CLIENT_ID,});
+var requireAuth = expressJwt({secret: mySecret}); //maybe need audience?
+
+// //  Middleware for protecting routes...
+// var requireAuth = expressJwt({
+// 	secret: ,
+//   audience: process.env.AUTH0_CLIENT_ID,});
 
 router.post('/', requireAuth, function(req, res, next) {
 	// find the user id in the database and add it to the payload
 
 	var github_username = req.user.nickname;
-	var user_id;
-
 	db.adie.findAll({
 		where: {github_username: req.user.nickname}, 
 		attributes: ['id']})
 		.then(function(adie){
 			console.log(adie);
 			// eval(pry.it);
-			res.send({user_id: adie[0].get('id')});
+			if(!adie[0]) { // github username not in database
+				return res.status(401).send("Access Denied."); 
+			} else {
+				var id = adie[0].get('id');
+				return res.status(200).send({ jwt: extendToken(mySecret, req.user, { user_id: id })});
+			}
 		});
 		// .catch();
-
-  // get the library, check the user has access...
-  // var lib = req.params.lib;
-  // checkLib(req.user.sub, lib, function(err, ok) {
-
-  //   if(err) return next(err);
-  //   if(!ok) return res.status(401).send("Access Denied."); 
-  //   return res.status(200).send({jwt: extendToken(mySecret, req.user, {user_id: user})});
-
-  // });
-
 });
 
 var jwt = require('jsonwebtoken');
 
 function extendToken(secret, payload, extend) {
-
   //  Clone and extend the payload.
   var body = JSON.parse(JSON.stringify(payload));
   for (var prop in extend) {
@@ -52,10 +48,8 @@ function extendToken(secret, payload, extend) {
       body[prop] = extend[prop];
     }
   }
-
   //  Sign the new token with our secret.
   return jwt.sign(JSON.stringify(body), secret);
-
 }
 
 module.exports = router;
