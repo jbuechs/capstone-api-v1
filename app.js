@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 
 // Routes
 var routes = require('./routes/index');
+var authenticate = require('./routes/authenticate');
 var adies = require('./routes/adies');
 var employees = require('./routes/employees');
 var companies = require('./routes/companies');
@@ -35,6 +36,7 @@ app.use(function(req, res, next) {
 });
 
 app.use('/', routes);
+app.use('/authenticate', authenticate);
 app.use('/adies', adies);
 app.use('/employees', employees);
 app.use('/companies', companies);
