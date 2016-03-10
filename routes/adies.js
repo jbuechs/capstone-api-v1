@@ -2,6 +2,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
+// var pry = require('pryjs');
 
 // TODO: See if I can dry the dotenv and jwt code up
 var dotenv = require('dotenv');
@@ -15,7 +16,13 @@ var jwtCheck = jwt({
 // GET adies path
 router.get('/', function(req, res) {
 	jwtCheck(req, res, function() {
-		console.log(req.user);
+		// Need to check whether the github username is in database!
+		// eval(pry.it);
+		// var user = db.adie.findAll({
+		// 	where: {
+		// 		github_username: req.user.nickname
+		// 	}
+		// });
 		var exclusions = req.user ? ['createdAt', 'updatedAt'] : ['email', 'createdAt', 'updatedAt', 'github_username'];
 		db.adie.findAll({
 			attributes: { exclude: exclusions }
