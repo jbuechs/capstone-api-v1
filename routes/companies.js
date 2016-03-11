@@ -12,7 +12,7 @@ router.get('/', function(req, res) {
 
 // GET companies/:id path
 router.get('/:id([0-9]+)', lookupCompany, function(req, res) {
-	res.json(req.data);
+	res.json({ data: req.data });
 });
 
 // POST to companies/ path

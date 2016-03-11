@@ -12,7 +12,7 @@ router.get('/', function(req, res) {
 
 // GET employees/:id path
 router.get('/:id([0-9]+)', lookupEmployee, function(req, res) {
-	res.json(req.data);
+	res.json({ data: req.data });
 });
 
 // POST to employees/ path

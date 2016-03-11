@@ -27,7 +27,7 @@ router.get('/', function(req, res) {
 
 // GET adies/:id path
 router.get('/:id([0-9]+)', lookupAdie, function(req, res) {
-	res.json(req.data);
+	res.json({ data: req.data });
 });
 
 // POST to adies/ path
