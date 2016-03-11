@@ -17,7 +17,6 @@ router.get('/:id([0-9]+)', lookupCompany, function(req, res) {
 
 // POST to companies/ path
 router.post('/', function(req, res) { 
-	// TODO: Validate incoming data
 	db.company
 		.create(
 		{

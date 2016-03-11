@@ -17,7 +17,6 @@ router.get('/:id([0-9]+)', lookupEmployee, function(req, res) {
 
 // POST to employees/ path
 router.post('/', function(req, res) { 
-	// TODO: Validate incoming data
 	db.employee
 		.create(
 		{

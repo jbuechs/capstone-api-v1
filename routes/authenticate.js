@@ -6,8 +6,6 @@ var dotenv = require('dotenv');
 var expressJwt = require('express-jwt');  
 dotenv.load();
 
-var pry = require('pryjs');
-
 var mySecret = new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64');
 
 //  Middleware for protecting routes...
@@ -26,8 +24,6 @@ router.post('/', requireAuth, function(req, res, next) {
 		where: {github_username: req.user.nickname}, 
 		attributes: ['id']})
 		.then(function(adie){
-			console.log(adie);
-			// eval(pry.it);
 			if(!adie[0]) { // github username not in database
 				return res.status(401).send("Access Denied."); 
 			} else {
