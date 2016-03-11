@@ -12,6 +12,7 @@ var auth = require('./routes/authenticate');
 var adies = require('./routes/adies');
 var employees = require('./routes/employees');
 var companies = require('./routes/companies');
+var companies_employees = require('./routes/companies_employees');
 
 var app = express();
 
@@ -40,6 +41,7 @@ app.use('/authenticate', auth);
 app.use('/adies', adies);
 app.use('/employees', employees);
 app.use('/companies', companies);
+app.use('/companies_employees', companies_employees);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
