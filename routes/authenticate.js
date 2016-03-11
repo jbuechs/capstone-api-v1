@@ -8,17 +8,10 @@ dotenv.load();
 
 var mySecret = new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64');
 
-//  Middleware for protecting routes...
-var requireAuth = expressJwt({secret: mySecret}); //maybe need audience?
-
-// //  Middleware for protecting routes...
-// var requireAuth = expressJwt({
-// 	secret: ,
-//   audience: process.env.AUTH0_CLIENT_ID,});
+var requireAuth = expressJwt({secret: mySecret});
 
 router.post('/', requireAuth, function(req, res, next) {
 	// find the user id in the database and add it to the payload
-
 	var github_username = req.user.nickname;
 	db.adie.findAll({
 		where: {github_username: req.user.nickname}, 
@@ -44,7 +37,7 @@ function extendToken(secret, payload, extend) {
       body[prop] = extend[prop];
     }
   }
-  //  Sign the new token with our secret.
+  //  Sign the new token with secret.
   return jwt.sign(JSON.stringify(body), secret);
 }
 
