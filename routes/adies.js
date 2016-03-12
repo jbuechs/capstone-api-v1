@@ -26,8 +26,24 @@ router.get('/', function(req, res) {
 });
 
 // GET adies/:id path
-router.get('/:id([0-9]+)', lookupAdie, function(req, res) {
-	res.json({ data: req.data });
+router.get('/:id([0-9]+)', function(req, res) {
+	jwtCheck(req, res, function() {
+		var exclusions = req.user ? ['createdAt', 'updatedAt'] : ['email', 'createdAt', 'updatedAt', 'github_username'];
+		db.adie.findById(req.params.id, { attributes: { exclude: exclusions }})
+				.then(function(adie) {
+					if (adie === null) {
+						res.statusCode = 404;
+		      	return res.json({ errors: ['Adie not found']});
+					}
+					return res.json({ data: adie });
+				})
+				// need to write a mock that tests this
+				.catch(function(err) {
+					console.error(err);
+					res.statusCode = 500;
+					return res.json({ errors: ['Could not retrieve adie'] });
+				});
+	});
 });
 
 // POST to adies/ path
@@ -62,28 +78,35 @@ router.post('/', function(req, res) {
 
 // PATCH to adies/:id path
 router.patch('/:id([0-9]+)', lookupAdie, function(req, res){
-	req.data.update({
-		name: req.body.name,
-		cohort: req.body.cohort,
-		github_username: req.body.github_username,
-		twitter: req.body.twitter,
-		linked_in_url: req.body.linked_in_url,
-		image: req.body.image,
-		email: req.body.email,
-		bio: req.body.bio,
-	}, 
-	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
-	.then(function(updatedAdie){
-		return res.json(
-		{ messages: ['Adie updated!'],
-			data: updatedAdie.get({ plain: true, })
-		});
-	})
-	.catch(function(err){
-		console.error(err);
-		res.statusCode = 500;
-		return res.json({ errors: err.errors });
+	jwtCheck(req, res, function(){
+		if (req.user.user_id === req.params.id) {
+			req.data.update({
+				name: req.body.name,
+				cohort: req.body.cohort,
+				github_username: req.body.github_username,
+				twitter: req.body.twitter,
+				linked_in_url: req.body.linked_in_url,
+				image: req.body.image,
+				email: req.body.email,
+				bio: req.body.bio,
+			}, 
+			{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
+			.then(function(updatedAdie){
+				return res.json(
+				{ messages: ['Adie updated!'],
+					data: updatedAdie.get({ plain: true, })
+				});
+			})
+			.catch(function(err){
+				console.error(err);
+				res.statusCode = 500;
+				return res.json({ errors: err.errors });
+			});
+		} else {
+			return res.json({ errors: ['You do not have permission to update this record.']});
+		}
 	});
+	
 });
 
 // DELETE to adies/:id path
