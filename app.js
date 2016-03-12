@@ -36,10 +36,19 @@ app.use(function(req, res, next) {
   next();
 });
 
+// Auth middleware
+var jwt = require('express-jwt');
+var dotenv = require('dotenv');
+dotenv.load();
+var jwtCheck = jwt({
+  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
+  audience: process.env.AUTH0_CLIENT_ID,
+});
+
 app.use('/', routes);
 app.use('/authenticate', auth);
 app.use('/adies', adies);
-app.use('/employees', employees);
+app.use('/employees', jwtCheck, employees);
 app.use('/companies', companies);
 app.use('/companies_employees', companies_employees);
 
