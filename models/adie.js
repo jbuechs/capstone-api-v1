@@ -38,6 +38,10 @@ module.exports = function(sequelize, DataTypes) {
     },
     bio: {
       type: DataTypes.TEXT
+    },
+    admin: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false
     }
   }, {
     classMethods: {
