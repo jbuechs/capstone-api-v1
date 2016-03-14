@@ -2,6 +2,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
+var permissions = require('../utils/permissions');
 // var pry = require('pryjs');
 
 function getExclusions(user) {
@@ -14,7 +15,7 @@ function getExclusions(user) {
 
 // GET adies path
 router.get('/', function(req, res) {
-	jwtCheck(req, res, function() {
+	permissions.authJwt(req, res, function() {
 		var exclusions = getExclusions(req.user);
 		db.adie.findAll({
 			attributes: { exclude: exclusions }
@@ -26,27 +27,27 @@ router.get('/', function(req, res) {
 
 // GET adies/:id path
 router.get('/:id([0-9]+)', function(req, res) {
-	jwtCheck(req, res, function() {
+	permissions.authJwt(req, res, function() {
 		var exclusions = getExclusions(req.user);
 		db.adie.findById(req.params.id, { attributes: { exclude: exclusions }})
-				.then(function(adie) {
-					if (adie === null) {
-						res.statusCode = 404;
-		      	return res.json({ errors: ['Adie not found']});
-					}
-					return res.json({ data: adie });
-				})
-				// need to write a mock that tests this
-				.catch(function(err) {
-					console.error(err);
-					res.statusCode = 500;
-					return res.json({ errors: ['Could not retrieve adie'] });
-				});
+			.then(function(adie) {
+				if (adie === null) {
+					res.statusCode = 404;
+	      	return res.json({ errors: ['Adie not found']});
+				}
+				return res.json({ data: adie });
+			})
+			// need to write a mock that tests this
+			.catch(function(err) {
+				console.error(err);
+				res.statusCode = 500;
+				return res.json({ errors: ['Could not retrieve adie'] });
+			});
 	});
 });
 
 // POST to adies/ path
-router.post('/', adminCheck, function(req, res) { 
+router.post('/', permissions.adminCheck, function(req, res) { 
 	db.adie
 		.create(
 		{
@@ -75,8 +76,7 @@ router.post('/', adminCheck, function(req, res) {
 });
 
 // PATCH to adies/:id path
-router.patch('/:id([0-9]+)', adminOrAdieCheck, lookupAdie, function(req, res){
-	// eval(pry.it);
+router.patch('/:id([0-9]+)', permissions.adminOrAdieCheck, lookupAdie, function(req, res){
 	req.data.update({
 		name: req.body.name,
 		cohort: req.body.cohort,
@@ -102,7 +102,7 @@ router.patch('/:id([0-9]+)', adminOrAdieCheck, lookupAdie, function(req, res){
 });
 
 // DELETE to adies/:id path
-router.delete('/:id([0-9]+)', adminCheck, lookupAdie, function(req, res){
+router.delete('/:id([0-9]+)', permissions.adminCheck, lookupAdie, function(req, res){
 	db.adie.destroy({
 		where: { id : req.params.id }
 	})
@@ -133,40 +133,6 @@ function lookupAdie(req, res, next) {
 			res.statusCode = 500;
 			return res.json({ errors: ['Could not retrieve adie'] });
 		});
-}
-
-// Check whether user is admin
-
-var dotenv = require('dotenv');
-var jwt = require('express-jwt');
-dotenv.load();
-
-var jwtCheck = jwt({
-  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-  audience: process.env.AUTH0_CLIENT_ID,
-});
-
-function adminCheck(req, res, next) {
-	jwtCheck(req, res, function() {
-		if (!req.user.admin) {
-			res.statusCode = 401;
-			return res.json({ errors: ['Admin authorization required to complete this action']});
-		} else {
-			next();
-		}
-	});
-}
-
-function adminOrAdieCheck(req, res, next) {
-	jwtCheck(req, res, function() {
-		// eval(pry.it);
-		if (req.user && (req.user.admin || req.user.user_id === +req.params.id)) {
-			next();
-		} else {
-			res.statusCode = 401;
-			return res.json({ errors: ['You do not have permission to update this record.']});
-		}
-	});
 }
 
 module.exports = router;
