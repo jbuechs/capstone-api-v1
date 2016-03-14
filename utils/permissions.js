@@ -1,4 +1,3 @@
-// Check whether user is admin
 var permissions = {
 	authJwt: function(req, res, next) {
 		var dotenv = require('dotenv');
@@ -9,8 +8,13 @@ var permissions = {
 		  audience: process.env.AUTH0_CLIENT_ID,
 		})(req, res, next);
 	},
+
 	adminCheck: function(req, res, next) {
-		this.authJwt(req, res, function() {
+		permissions.authJwt(req, res, function() {
+			if (!req.user) {
+				res.statusCode = 401;
+				return res.json({ errors: ['Login required to complete this action']});
+			}
 			if (!req.user.admin) {
 				res.statusCode = 401;
 				return res.json({ errors: ['Admin authorization required to complete this action']});
@@ -21,7 +25,7 @@ var permissions = {
 	},
 
 	adminOrAdieCheck: function(req, res, next) {
-		this.authJwt(req, res, function() {
+		permissions.authJwt(req, res, function() {
 			if (req.user && (req.user.admin || req.user.user_id === +req.params.id)) {
 				next();
 			} else {

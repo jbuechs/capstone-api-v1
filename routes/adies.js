@@ -59,6 +59,7 @@ router.post('/', permissions.adminCheck, function(req, res) {
 			image: req.body.image,
 			email: req.body.email,
 			bio: req.body.bio,
+			admin: req.body.admin
 		}) 
 		.then(function(adie){
 			return res.json(
@@ -86,6 +87,7 @@ router.patch('/:id([0-9]+)', permissions.adminOrAdieCheck, lookupAdie, function(
 		image: req.body.image,
 		email: req.body.email,
 		bio: req.body.bio,
+		admin: req.body.admin
 	}, 
 	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
 	.then(function(updatedAdie){
