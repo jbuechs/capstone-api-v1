@@ -3,6 +3,16 @@ var express = require('express');
 var router = express.Router();
 var db = require('../models');
 
+var dotenv = require('dotenv');
+var jwt = require('express-jwt');
+dotenv.load();
+var pry = require('pryjs');
+
+var jwtCheck = jwt({
+  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
+  audience: process.env.AUTH0_CLIENT_ID,
+});
+
 // GET employees path
 router.get('/', function(req, res) {
 	db.employee.findAll()
@@ -16,7 +26,7 @@ router.get('/:id([0-9]+)', lookupEmployee, function(req, res) {
 });
 
 // POST to employees/ path
-router.post('/', function(req, res) { 
+router.post('/', adminCheck, function(req, res) { 
 	db.employee
 		.create(
 		{
@@ -99,6 +109,18 @@ function lookupEmployee(req, res, next) {
 			res.statusCode = 500;
 			return res.json({ errors: ['Could not retrieve employee'] });
 		});
+}
+
+// Check whether user is admin
+function adminCheck(req, res, next) {
+	jwtCheck(req, res, function() {
+		if (!req.user.admin) {
+			res.statusCode = 401;
+			return res.json({ errors: ['Admin authorization required to complete this action']});
+		} else {
+			next();
+		}
+	});
 }
 
 module.exports = router;
