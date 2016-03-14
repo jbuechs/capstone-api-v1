@@ -1,3 +1,5 @@
+// var pry = require('pryjs');
+
 var permissions = {
 	authJwt: function(req, res, next) {
 		var dotenv = require('dotenv');

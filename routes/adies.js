@@ -49,8 +49,7 @@ router.get('/:id([0-9]+)', function(req, res) {
 // POST to adies/ path
 router.post('/', permissions.adminCheck, function(req, res) { 
 	db.adie
-		.create(
-		{
+		.create({
 			name: req.body.name,
 			cohort: req.body.cohort,
 			github_username: req.body.github_username,
