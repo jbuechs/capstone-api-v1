@@ -5,6 +5,7 @@ var db = require('../models');
 var dotenv = require('dotenv');
 var expressJwt = require('express-jwt');  
 dotenv.load();
+var pry = require('pryjs');
 
 var mySecret = new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64');
 
@@ -21,7 +22,10 @@ router.post('/', requireAuth, function(req, res, next) {
 				return res.status(401).send("Access Denied."); 
 			} else {
 				var id = adie[0].get('id');
-				return res.status(200).send({ jwt: extendToken(mySecret, req.user, { user_id: id })});
+				// add admin
+				var admin = adie[0].get('admin');
+				eval(pry.it);
+				return res.status(200).send({ jwt: extendToken(mySecret, req.user, { user_id: id, admin: admin })});
 			}
 		});
 		// .catch();
