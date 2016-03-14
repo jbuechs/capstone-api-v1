@@ -4,22 +4,41 @@ var router = express.Router();
 var db = require('../models');
 var pry = require('pryjs');
 
+// TODO: Refactor to dry this up. Some sort of scope problem here.
+// function getExclusions(user) {
+// 	if (user) {
+// 		return user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
+// 	} else {
+// 		return ['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
+// 	}
+// }
+
 // GET adies path
 router.get('/', function(req, res) {
 	jwtCheck(req, res, function() {
-		var exclusions = req.user ? ['createdAt', 'updatedAt'] : ['email', 'createdAt', 'updatedAt', 'github_username'];
+		var exclusions;
+		if (req.user) {
+			exclusions = req.user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
+		} else {
+			exclusions =['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
+		}
 		db.adie.findAll({
 			attributes: { exclude: exclusions }
 				})
-					.then(adies => res.send({data:adies}));
-					// add catch for errors?
+			.then(adies => res.send({data:adies}));
+			// add catch for errors?
 	});
 });
 
 // GET adies/:id path
 router.get('/:id([0-9]+)', function(req, res) {
 	jwtCheck(req, res, function() {
-		var exclusions = req.user ? ['createdAt', 'updatedAt'] : ['email', 'createdAt', 'updatedAt', 'github_username'];
+		var exclusions;
+		if (req.user) {
+			exclusions = req.user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
+		} else {
+			exclusions =['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
+		}
 		db.adie.findById(req.params.id, { attributes: { exclude: exclusions }})
 				.then(function(adie) {
 					if (adie === null) {
@@ -50,8 +69,7 @@ router.post('/', adminCheck, function(req, res) {
 			image: req.body.image,
 			email: req.body.email,
 			bio: req.body.bio,
-		}, 
-		{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
+		}) 
 		.then(function(adie){
 			return res.json(
 				{ messages: ['Adie created!'],
@@ -69,6 +87,7 @@ router.post('/', adminCheck, function(req, res) {
 
 // PATCH to adies/:id path
 router.patch('/:id([0-9]+)', adminOrAdieCheck, lookupAdie, function(req, res){
+	// eval(pry.it);
 	req.data.update({
 		name: req.body.name,
 		cohort: req.body.cohort,
