@@ -80,6 +80,7 @@ router.post('/', function(req, res) {
 router.patch('/:id([0-9]+)', lookupAdie, function(req, res){
 	jwtCheck(req, res, function(){
 		if (req.user && req.user.user_id === +req.params.id) {
+			console.log(`Submitted request: ${req.body}`);
 			req.data.update({
 				name: req.body.name,
 				cohort: req.body.cohort,
