@@ -2,16 +2,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
-// var pry = require('pryjs');
-
-// TODO: See if I can dry the dotenv and jwt code up
-var dotenv = require('dotenv');
-var jwt = require('express-jwt');
-dotenv.load();
-var jwtCheck = jwt({
-  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-  audience: process.env.AUTH0_CLIENT_ID,
-});
+var pry = require('pryjs');
 
 // GET adies path
 router.get('/', function(req, res) {
@@ -47,7 +38,7 @@ router.get('/:id([0-9]+)', function(req, res) {
 });
 
 // POST to adies/ path
-router.post('/', function(req, res) { 
+router.post('/', adminCheck, function(req, res) { 
 	db.adie
 		.create(
 		{
@@ -77,40 +68,33 @@ router.post('/', function(req, res) {
 });
 
 // PATCH to adies/:id path
-router.patch('/:id([0-9]+)', lookupAdie, function(req, res){
-	jwtCheck(req, res, function(){
-		if (req.user && req.user.user_id === +req.params.id) {
-			req.data.update({
-				name: req.body.name,
-				cohort: req.body.cohort,
-				github_username: req.body.github_username,
-				twitter: req.body.twitter,
-				linked_in_url: req.body.linked_in_url,
-				image: req.body.image,
-				email: req.body.email,
-				bio: req.body.bio,
-			}, 
-			{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
-			.then(function(updatedAdie){
-				return res.json(
-				{ messages: ['Adie updated!'],
-					data: updatedAdie.get({ plain: true, })
-				});
-			})
-			.catch(function(err){
-				console.error(err);
-				res.statusCode = 500;
-				return res.json({ errors: err.errors });
+router.patch('/:id([0-9]+)', adminOrAdieCheck, lookupAdie, function(req, res){
+	req.data.update({
+		name: req.body.name,
+		cohort: req.body.cohort,
+		github_username: req.body.github_username,
+		twitter: req.body.twitter,
+		linked_in_url: req.body.linked_in_url,
+		image: req.body.image,
+		email: req.body.email,
+		bio: req.body.bio,
+	}, 
+	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
+	.then(function(updatedAdie){
+		return res.json(
+		{ messages: ['Adie updated!'],
+			data: updatedAdie.get({ plain: true, })
+		});
+	})
+	.catch(function(err){
+		console.error(err);
+		res.statusCode = 500;
+		return res.json({ errors: err.errors });
 			});
-		} else {
-			return res.json({ errors: ['You do not have permission to update this record.']});
-		}
-	});
-	
 });
 
 // DELETE to adies/:id path
-router.delete('/:id([0-9]+)', lookupAdie, function(req, res){
+router.delete('/:id([0-9]+)', adminCheck, lookupAdie, function(req, res){
 	db.adie.destroy({
 		where: { id : req.params.id }
 	})
@@ -141,6 +125,40 @@ function lookupAdie(req, res, next) {
 			res.statusCode = 500;
 			return res.json({ errors: ['Could not retrieve adie'] });
 		});
+}
+
+// Check whether user is admin
+
+var dotenv = require('dotenv');
+var jwt = require('express-jwt');
+dotenv.load();
+
+var jwtCheck = jwt({
+  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
+  audience: process.env.AUTH0_CLIENT_ID,
+});
+
+function adminCheck(req, res, next) {
+	jwtCheck(req, res, function() {
+		if (!req.user.admin) {
+			res.statusCode = 401;
+			return res.json({ errors: ['Admin authorization required to complete this action']});
+		} else {
+			next();
+		}
+	});
+}
+
+function adminOrAdieCheck(req, res, next) {
+	jwtCheck(req, res, function() {
+		// eval(pry.it);
+		if (req.user && (req.user.admin || req.user.user_id === +req.params.id)) {
+			next();
+		} else {
+			res.statusCode = 401;
+			return res.json({ errors: ['You do not have permission to update this record.']});
+		}
+	});
 }
 
 module.exports = router;
