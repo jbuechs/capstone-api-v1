@@ -37,18 +37,23 @@ module.exports = {
           isEmail: true,
         }
       },
+      admin: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+        allowNull: false
+      },
       bio: {
         type: Sequelize.TEXT
       },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: new Date(),
+        defaultValue: Sequelize.NOW,
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: new Date(),
+        defaultValue: Sequelize.NOW,
       }
     });
   },
