@@ -4,24 +4,18 @@ var router = express.Router();
 var db = require('../models');
 // var pry = require('pryjs');
 
-// TODO: Refactor to dry this up. Some sort of scope problem here.
-// function getExclusions(user) {
-// 	if (user) {
-// 		return user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
-// 	} else {
-// 		return ['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
-// 	}
-// }
+function getExclusions(user) {
+	if (user) {
+		return user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
+	} else {
+		return ['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
+	}
+}
 
 // GET adies path
 router.get('/', function(req, res) {
 	jwtCheck(req, res, function() {
-		var exclusions;
-		if (req.user) {
-			exclusions = req.user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
-		} else {
-			exclusions =['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
-		}
+		var exclusions = getExclusions(req.user);
 		db.adie.findAll({
 			attributes: { exclude: exclusions }
 				})
@@ -33,12 +27,7 @@ router.get('/', function(req, res) {
 // GET adies/:id path
 router.get('/:id([0-9]+)', function(req, res) {
 	jwtCheck(req, res, function() {
-		var exclusions;
-		if (req.user) {
-			exclusions = req.user.admin ? [] : ['createdAt', 'updatedAt', 'admin'];
-		} else {
-			exclusions =['email', 'createdAt', 'updatedAt', 'github_username', 'admin'];
-		}
+		var exclusions = getExclusions(req.user);
 		db.adie.findById(req.params.id, { attributes: { exclude: exclusions }})
 				.then(function(adie) {
 					if (adie === null) {
