@@ -2,6 +2,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
+var permissions = require('../utils/permissions');
 
 // GET companies path
 router.get('/', function(req, res) {
@@ -16,7 +17,7 @@ router.get('/:id([0-9]+)', lookupCompany, function(req, res) {
 });
 
 // POST to companies/ path
-router.post('/', adminCheck, function(req, res) { 
+router.post('/', permissions.adminCheck, function(req, res) { 
 	db.company
 		.create(
 		{
@@ -45,7 +46,7 @@ router.post('/', adminCheck, function(req, res) {
 });
 
 // PATCH to companies/:id path
-router.patch('/:id([0-9]+)', adminCheck, lookupCompany, function(req, res){
+router.patch('/:id([0-9]+)', permissions.adminCheck, lookupCompany, function(req, res){
 	req.data.update({
 		name: req.body.name,
 		street: req.body.street,
@@ -72,7 +73,7 @@ router.patch('/:id([0-9]+)', adminCheck, lookupCompany, function(req, res){
 });
 
 // DELETE to companies/:id path
-router.delete('/:id([0-9]+)', adminCheck, lookupCompany, function(req, res){
+router.delete('/:id([0-9]+)', permissions.adminCheck, lookupCompany, function(req, res){
 	db.company.destroy({
 		where: { id : req.params.id }
 	})
@@ -103,28 +104,6 @@ function lookupCompany(req, res, next) {
 			res.statusCode = 500;
 			return res.json({ errors: ['Could not retrieve company'] });
 		});
-}
-
-// Check whether user is admin
-
-var dotenv = require('dotenv');
-var jwt = require('express-jwt');
-dotenv.load();
-
-var jwtCheck = jwt({
-  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-  audience: process.env.AUTH0_CLIENT_ID,
-});
-
-function adminCheck(req, res, next) {
-	jwtCheck(req, res, function() {
-		if (!req.user.admin) {
-			res.statusCode = 401;
-			return res.json({ errors: ['Admin authorization required to complete this action']});
-		} else {
-			next();
-		}
-	});
 }
 
 module.exports = router;
