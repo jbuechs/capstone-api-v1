@@ -3,16 +3,6 @@ var express = require('express');
 var router = express.Router();
 var db = require('../models');
 
-var dotenv = require('dotenv');
-var jwt = require('express-jwt');
-dotenv.load();
-var pry = require('pryjs');
-
-var jwtCheck = jwt({
-  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-  audience: process.env.AUTH0_CLIENT_ID,
-});
-
 // GET employees path
 router.get('/', function(req, res) {
 	db.employee.findAll()
@@ -112,6 +102,16 @@ function lookupEmployee(req, res, next) {
 }
 
 // Check whether user is admin
+
+var dotenv = require('dotenv');
+var jwt = require('express-jwt');
+dotenv.load();
+
+var jwtCheck = jwt({
+  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
+  audience: process.env.AUTH0_CLIENT_ID,
+});
+
 function adminCheck(req, res, next) {
 	jwtCheck(req, res, function() {
 		if (!req.user.admin) {
