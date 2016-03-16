@@ -18,6 +18,10 @@ router.get('/', function(req, res) {
 	permissions.authJwt(req, res, function() {
 		var exclusions = getExclusions(req.user);
 		db.adie.findAll({
+			include: [{ 
+				model: db.company,
+				attributes: ['name']
+			}],
 			attributes: { exclude: exclusions }
 				})
 			.then(adies => res.send({data:adies}));
@@ -35,7 +39,14 @@ router.get('/:id([0-9]+)', function(req, res) {
 					res.statusCode = 404;
 	      	return res.json({ errors: ['Adie not found']});
 				}
-				return res.json({ data: adie });
+				
+				db.sequelize.query('SELECT name FROM companies WHERE "id" = ?', { replacements: [adie.companyId], type: db.sequelize.QueryTypes.SELECT})
+						  .then(function(company) {
+						  	// eval(pry.it);
+						    adie.dataValues.company = company[0].name;
+						    return res.json({ data: adie });
+						  });
+				
 			})
 			// need to write a mock that tests this
 			.catch(function(err) {
