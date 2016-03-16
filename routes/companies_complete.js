@@ -26,17 +26,23 @@ router.get('/:id([0-9]+)', function(req, res) {
 			var response = { data : {
 				company: company
 			}};
-			if (req.user) {
-				// user is authenticated, so search for employees
-				db.sequelize.query('SELECT * FROM employees WHERE "companyId" = ?', { replacements: [req.params.id], type: db.sequelize.QueryTypes.SELECT})
-				  .then(function(employees) {
-				    response.data.employees = employees;
-				    return res.json(response);
-				  });
-			} else {
-				// user is not authenticated, so no employees & just return the company
-				return res.json(response);
-			}
+			db.sequelize.query('SELECT name,cohort FROM adies WHERE "companyId" = ?', {replacements: [req.params.id], type: db.sequelize.QueryTypes.SELECT})
+				.then(function(adies) {
+					response.data.adies = adies;
+				})
+				.then(() => {
+					if (req.user) {
+						// user is authenticated, so search for employees
+						db.sequelize.query('SELECT * FROM employees WHERE "companyId" = ?', { replacements: [req.params.id], type: db.sequelize.QueryTypes.SELECT})
+						  .then(function(employees) {
+						    response.data.employees = employees;
+						    return res.json(response);
+						  });
+					} else {
+						// user is not authenticated, so no employees & just return the company
+						return res.json(response);
+					}
+				});
 		})
 		// need to write a mock that tests this
 		.catch(function(err) {
