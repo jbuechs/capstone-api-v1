@@ -26,7 +26,7 @@ router.get('/:id([0-9]+)', function(req, res) {
 			var response = { data : {
 				company: company
 			}};
-			db.sequelize.query('SELECT name,cohort FROM adies WHERE "companyId" = ?', {replacements: [req.params.id], type: db.sequelize.QueryTypes.SELECT})
+			db.sequelize.query('SELECT id,name,cohort FROM adies WHERE "companyId" = ?', {replacements: [req.params.id], type: db.sequelize.QueryTypes.SELECT})
 				.then(function(adies) {
 					response.data.adies = adies;
 				})
