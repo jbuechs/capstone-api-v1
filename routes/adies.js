@@ -22,7 +22,8 @@ router.get('/', function(req, res) {
 				model: db.company,
 				attributes: ['name']
 			}],
-			attributes: { exclude: exclusions }
+			attributes: { exclude: exclusions },
+			order: 'name ASC'
 				})
 			.then(adies => res.send({data:adies}));
 			// add catch for errors?
