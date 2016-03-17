@@ -6,9 +6,17 @@ var permissions = require('../utils/permissions');
 
 // GET companies path
 router.get('/', function(req, res) {
-	db.company.findAll()
-		.then(companies => res.send({data:companies}));
-		// add catch for errors?
+	db.company.findAll({
+		order: 'name ASC'
+	})
+		.then(companies => res.send({data:companies}))
+		.catch(function(err) {
+			console.error(err);
+			res.statusCode = 500;
+      return res.json({ 
+      	messages: ['Could not retreive companies'],
+      	errors: err.errors });
+		});
 });
 
 // GET companies/:id path
