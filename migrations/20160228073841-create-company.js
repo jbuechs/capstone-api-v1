@@ -34,6 +34,9 @@ module.exports = {
       logo: {
         type: Sequelize.STRING,
       },
+      industry: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

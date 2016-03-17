@@ -32,6 +32,9 @@ module.exports = function(sequelize, DataTypes) {
     },
     logo: {
       type: DataTypes.STRING,
+    },
+    industry: {
+      type: DataTypes.STRING
     }
   }, {
     classMethods: {
