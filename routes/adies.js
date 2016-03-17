@@ -25,8 +25,14 @@ router.get('/', function(req, res) {
 			attributes: { exclude: exclusions },
 			order: 'name ASC'
 				})
-			.then(adies => res.send({data:adies}));
-			// add catch for errors?
+			.then(adies => res.send({data:adies}))
+			.catch(function(err) {
+				console.error(err);
+				res.statusCode = 500;
+	      return res.json({ 
+	      	messages: ['Could not retreive adies'],
+	      	errors: err.errors });
+			});
 	});
 });
 
