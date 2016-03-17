@@ -45,6 +45,12 @@ module.exports = {
       bio: {
         type: Sequelize.TEXT
       },
+      capstone_url: {
+      type: Sequelize.STRING,
+      },
+      capstone_description: {
+        type: Sequelize.TEXT,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

@@ -9,13 +9,15 @@ module.exports = {
         "github_username":"audreycarlsen",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/audrey-carlsen-96b29463",
-        "image":"",
+        "image":"AudreyC.jpg",
         "email":"foo1@bar.com",
         "companyId":3,
-        "admin": false,
         "bio":"Audrey Carlsen was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Asha Golveo",
@@ -23,13 +25,15 @@ module.exports = {
         "github_username":"ashag",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/ashagolveo",
-        "image":"",
+        "image":"Asha.jpg",
         "email":"agolveo@gmail.com",
         "companyId":2,
-        "admin": false,
         "bio":"Asha Golveo was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Shadae Holmes",
@@ -37,13 +41,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/shadae",
-        "image":"",
+        "image":"Shadae.jpg",
         "email":"shadaeholmes@gmail.com",
         "companyId":11,
-        "admin": false,
         "bio":"Shadae Holmes was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Hsing-Hui Hsu",
@@ -54,10 +60,12 @@ module.exports = {
         "image":"",
         "email":"hhhsu1@gmail.com",
         "companyId":7,
-        "admin": false,
         "bio":"Hsing-Hui Hsu was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Blake Johnson",
@@ -65,13 +73,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/blake-johnson-15801937",
-        "image":"",
+        "image":"Blake.jpg",
         "email":"foo2@bar.com",
         "companyId":4,
-        "admin": false,
         "bio":"Blake Johnson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Anne Kimsey",
@@ -79,13 +89,15 @@ module.exports = {
         "github_username":"AKimZ",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/askimsey",
-        "image":"",
+        "image":"AnneK.jpg",
         "email":"foo3@bar.com",
         "companyId":1,
-        "admin": false,
         "bio":"Anne Kimsey was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Whitney-Rose Levis",
@@ -96,10 +108,12 @@ module.exports = {
         "image":"",
         "email":"ms.whitney.levis@gmail.com",
         "companyId":13,
-        "admin": false,
         "bio":"Whitney-Rose Levis was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Davida Marion",
@@ -107,13 +121,15 @@ module.exports = {
         "github_username":"Sgtpluck",
         "twitter":"@davidamarion",
         "linked_in_url":"https://www.linkedin.com/in/davidamarion",
-        "image":"",
+        "image":"Davida.jpg",
         "email":"davidamarion@gmail.com",
         "companyId":6,
-        "admin": false,
         "bio":"Davida Marion was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Melinda Mizuta",
@@ -121,13 +137,15 @@ module.exports = {
         "github_username":"mkmizuta",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/melinda-mizuta-3655b57",
-        "image":"",
+        "image":"Melinda.jpg",
         "email":"foo4@bar.com",
         "companyId":1,
-        "admin": false,
         "bio":"Melinda Mizuta was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Liz Rush",
@@ -135,13 +153,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/lizrush",
-        "image":"",
+        "image":"LizR.jpg",
         "email":"liz@lizmrush.com",
         "companyId":10,
-        "admin": false,
         "bio":"Liz Rush was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Christina Thompson",
@@ -149,13 +169,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/thompsonchristina",
-        "image":"",
+        "image":"ChristinaT.jpg",
         "email":"c.thompsonms@gmail.com",
         "companyId":5,
-        "admin": false,
         "bio":"Christina Thompson was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Elizabeth Uselton",
@@ -163,13 +185,15 @@ module.exports = {
         "github_username":"ElizabethU",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/elizabeth-uselton-17a3994a",
-        "image":"",
+        "image":"ElizabethU.jpg",
         "email":"foo5@bar.com",
         "companyId":7,
-        "admin": false,
         "bio":"Elizabeth Uselton was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Sue White",
@@ -177,13 +201,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/sue-white-b8953186",
-        "image":"",
+        "image":"Sue.jpg",
         "email":"sue@mailworks.org",
         "companyId":12,
-        "admin": false,
         "bio":"Sue White was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Ellen Wondra-Lindley",
@@ -191,13 +217,15 @@ module.exports = {
         "github_username":"shanghaiellen",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/ellen-wondra-lindley-27359977",
-        "image":"",
+        "image":"Ellen.jpg",
         "email":"foo6@bar.com",
         "companyId":8,
-        "admin": false,
         "bio":"Ellen Wondra-Lindley was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Galina Yermicheva",
@@ -205,13 +233,15 @@ module.exports = {
         "github_username":"gyermich",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/galina-yermicheva-68518196",
-        "image":"",
+        "image":"Galina.jpg",
         "email":"foo7@bar.com",
         "companyId":9,
-        "admin": false,
         "bio":"Galina Yermicheva was a student in Ada Developers Academy cohort 1. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Rachel Adler",
@@ -222,10 +252,12 @@ module.exports = {
         "image":"Rachel.JPG",
         "email":"rmoshier@gmail.com",
         "companyId":6,
-        "admin": false,
         "bio":"Rachel Adler was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Richa Arora",
@@ -233,13 +265,15 @@ module.exports = {
         "github_username":"ricarora",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/richa-arora-4985085b",
-        "image":"richa.jpg",
+        "image":"Richa.jpg",
         "email":"ricarora@gmail.com",
         "companyId":1,
-        "admin": false,
         "bio":"Richa Arora was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Katie Bosch",
@@ -250,10 +284,12 @@ module.exports = {
         "image":"Katie.JPG",
         "email":"kab761@gmail.com",
         "companyId":2,
-        "admin": false,
         "bio":"Katie Bosch was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Linnea Damer",
@@ -264,10 +300,12 @@ module.exports = {
         "image":"Linnea.jpg",
         "email":"lkdamer@gmail.com",
         "companyId":7,
-        "admin": false,
         "bio":"Linnea Damer was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Bri Dotson",
@@ -278,10 +316,12 @@ module.exports = {
         "image":"bri.jpg",
         "email":"bridotson@gmail.com",
         "companyId":9,
-        "admin": false,
         "bio":"Bri Dotson was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kate Fulton",
@@ -292,10 +332,12 @@ module.exports = {
         "image":"Kat.JPG",
         "email":"katesuzannefulton@gmail.com",
         "companyId":4,
-        "admin": false,
         "bio":"Kate Fulton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kristina Hjertberg",
@@ -303,13 +345,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/khjrtbrg",
-        "image":"",
+        "image":"Kristina.jpg",
         "email":"hjert.k@gmail.com",
         "companyId":10,
-        "admin": false,
         "bio":"Kristina Hjertberg was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kamilah Jenkins",
@@ -320,10 +364,12 @@ module.exports = {
         "image":"Kamilah.jpeg",
         "email":"kamilah.jenkins@gmail.com",
         "companyId":7,
-        "admin": false,
         "bio":"Kamilah Jenkins was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Rachelle Keblitis",
@@ -331,13 +377,15 @@ module.exports = {
         "github_username":"rkeblitis",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/rkeblitis",
-        "image":"",
+        "image":"Rachelle.jpg",
         "email":"rkeblitis@gmail.com",
         "companyId":16,
-        "admin": false,
         "bio":"Rachelle Keblitis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Stephanie Kwak",
@@ -348,10 +396,12 @@ module.exports = {
         "image":"Stephanie Pi.jpeg",
         "email":"eskay@ghadibalo.com",
         "companyId":17,
-        "admin": false,
         "bio":"Stephanie Kwak was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Bonnie Kwong",
@@ -362,10 +412,12 @@ module.exports = {
         "image":"",
         "email":"kbonnie@gmail.com",
         "companyId":1,
-        "admin": false,
         "bio":"Bonnie Kwong was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Holly Leary",
@@ -376,10 +428,12 @@ module.exports = {
         "image":"holly-ada.jpg",
         "email":"schleary@gmail.com",
         "companyId":5,
-        "admin": false,
         "bio":"Holly Leary was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Rebecca Mark",
@@ -390,10 +444,12 @@ module.exports = {
         "image":"Rebecca Mark.jpg",
         "email":"rebecca.lmark@gmail.com",
         "companyId":4,
-        "admin": false,
         "bio":"Rebecca Mark was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kristen McCabe",
@@ -401,13 +457,15 @@ module.exports = {
         "github_username":"",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/kristen-mccabe-50119bb",
-        "image":"",
+        "image":"Kristen.jpg",
         "email":"kmccabe3@gmail.com",
         "companyId":16,
-        "admin": false,
         "bio":"Kristen McCabe was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Lily Pace",
@@ -418,10 +476,12 @@ module.exports = {
         "image":"Lily.jpg",
         "email":"lilyfpace@gmail.com",
         "companyId":18,
-        "admin": false,
         "bio":"Lily Pace was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Calla Patel",
@@ -432,10 +492,12 @@ module.exports = {
         "image":"calla.jpeg",
         "email":"callapatel@gmail.com",
         "companyId":1,
-        "admin": false,
         "bio":"Calla Patel was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Katherine Patke",
@@ -446,10 +508,12 @@ module.exports = {
         "image":"katef.jpg",
         "email":"kmmpatke@gmail.com",
         "companyId":17,
-        "admin": false,
         "bio":"Katherine Patke was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Crystal Perreira",
@@ -460,10 +524,12 @@ module.exports = {
         "image":"crystalperreira.jpg",
         "email":"cvperreira@gmail.com",
         "companyId":16,
-        "admin": false,
         "bio":"Crystal Perreira was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Stephanie Pi",
@@ -474,10 +540,12 @@ module.exports = {
         "image":"StephanieK.jpg",
         "email":"stephmpi@gmail.com",
         "companyId":16,
-        "admin": false,
         "bio":"Stephanie Pi was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Brenda Praggastis",
@@ -488,10 +556,12 @@ module.exports = {
         "image":"",
         "email":"bpraggastis@gmail.com",
         "companyId":14,
-        "admin": false,
         "bio":"Brenda Praggastis was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Allie Sterling",
@@ -502,10 +572,12 @@ module.exports = {
         "image":"Allie.jpg",
         "email":"sterling.allie@gmail.com",
         "companyId":12,
-        "admin": false,
         "bio":"Allie Sterling was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Cate Uselton",
@@ -513,13 +585,15 @@ module.exports = {
         "github_username":"catstavi",
         "twitter":"",
         "linked_in_url":"https://www.linkedin.com/in/cate-uselton-62a5bb61",
-        "image":"",
+        "image":"Cate.jpg",
         "email":"cathode.use@gmail.com",
         "companyId":15,
-        "admin": false,
         "bio":"Cate Uselton was a student in Ada Developers Academy cohort 2. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Alice Rhomieux",
@@ -530,10 +604,12 @@ module.exports = {
         "image":"Alice1.jpg",
         "email":"alice.rhomieux@gmail.com",
         "companyId":16,
-        "admin": false,
         "bio":"Alice Rhomieux was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Amira Hailemariam",
@@ -544,10 +620,12 @@ module.exports = {
         "image":"Amira1.jpg",
         "email":"AWatkins31@gmail.com",
         "companyId":20,
-        "admin": false,
         "bio":"Amira Hailemariam was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Anita Wang",
@@ -558,10 +636,12 @@ module.exports = {
         "image":"Anita2.jpg",
         "email":"michellemccarthy@hotmail.com",
         "companyId":27,
-        "admin": false,
         "bio":"Anita Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Ashley Watkins",
@@ -572,10 +652,12 @@ module.exports = {
         "image":"Ashley2.jpg",
         "email":"drvonnjerryxlii@gmail.com",
         "companyId":23,
-        "admin": false,
         "bio":"Ashley Watkins was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Brandi Wilson",
@@ -586,10 +668,12 @@ module.exports = {
         "image":"Brandi2.jpg",
         "email":"camarleigh@gmail.com",
         "companyId":26,
-        "admin": false,
         "bio":"Brandi Wilson was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Brenna Leker",
@@ -600,10 +684,12 @@ module.exports = {
         "image":"Brenna2.jpg",
         "email":"loraine@lorainekv.com",
         "companyId":15,
-        "admin": false,
         "bio":"Brenna Leker was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Brittany Walentin",
@@ -614,10 +700,12 @@ module.exports = {
         "image":"Brittany2.jpg",
         "email":"elgrenier@gmail.com",
         "companyId":1,
-        "admin": false,
         "bio":"Brittany Walentin was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Carly Jugler",
@@ -628,10 +716,12 @@ module.exports = {
         "image":"Carly2.jpg",
         "email":"asovay@gmail.com",
         "companyId":19,
-        "admin": false,
         "bio":"Carly Jugler was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Corinne Pingul",
@@ -642,10 +732,12 @@ module.exports = {
         "image":"Corinne2.jpg",
         "email":"corinnepingul@gmail.com",
         "companyId":1,
-        "admin": false,
         "bio":"Corinne Pingul was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Elia Grenier",
@@ -656,10 +748,12 @@ module.exports = {
         "image":"Elia2.jpg",
         "email":"sallyamoore@gmail.com",
         "companyId":28,
-        "admin": false,
         "bio":"Elia Grenier was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Elsa Moluf",
@@ -670,10 +764,12 @@ module.exports = {
         "image":"Elsa1.jpg",
         "email":"shannachau@gmail.com",
         "companyId":11,
-        "admin": false,
         "bio":"Elsa Moluf was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Jeri Sommers",
@@ -684,10 +780,12 @@ module.exports = {
         "image":"Jeri2.jpg",
         "email":"katrops@gmail.com",
         "companyId":25,
-        "admin": false,
         "bio":"Jeri Sommers was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kari Lonczak",
@@ -698,10 +796,12 @@ module.exports = {
         "image":"Kari1.jpg",
         "email":"amira.dhaile@gmail.com",
         "companyId":16,
-        "admin": false,
         "bio":"Kari Lonczak was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Katie Atrops",
@@ -712,10 +812,12 @@ module.exports = {
         "image":"Katie1.jpg",
         "email":"brittany.walentin@gmail.com",
         "companyId":21,
-        "admin": false,
         "bio":"Katie Atrops was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kyna Nguyen",
@@ -726,10 +828,12 @@ module.exports = {
         "image":"Kyna2.jpg",
         "email":"wilson.e.brandi@gmail.com",
         "companyId":20,
-        "admin": false,
         "bio":"Kyna Nguyen was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Lila Garcia",
@@ -740,10 +844,12 @@ module.exports = {
         "image":"Lila1.jpg",
         "email":"elsa.moluf@gmail.com",
         "companyId":22,
-        "admin": false,
         "bio":"Lila Garcia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Lindsey Reno",
@@ -754,10 +860,12 @@ module.exports = {
         "image":"Lindsey1.jpg",
         "email":"lindseyannereno@gmail.com",
         "companyId":2,
-        "admin": false,
         "bio":"Lindsey Reno was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Loraine Kanervisto",
@@ -768,10 +876,12 @@ module.exports = {
         "image":"Loraine2.jpg",
         "email":"vikshab2010@hotmail.com",
         "companyId":29,
-        "admin": false,
         "bio":"Loraine Kanervisto was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Marleigh Chiles",
@@ -782,10 +892,12 @@ module.exports = {
         "image":"Marleigh2.jpg",
         "email":"lilagrc@gmail.com",
         "companyId":25,
-        "admin": false,
         "bio":"Marleigh Chiles was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Michelle McCarthy",
@@ -796,10 +908,12 @@ module.exports = {
         "image":"Michelle1.jpg",
         "email":"kari.lonczak@gmail.com",
         "companyId":24,
-        "admin": false,
         "bio":"Michelle McCarthy was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Sally Moore",
@@ -810,10 +924,12 @@ module.exports = {
         "image":"Sally2.jpg",
         "email":"brennarama@gmail.com",
         "companyId":9,
-        "admin": false,
         "bio":"Sally Moore was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Shanna Chau",
@@ -824,10 +940,12 @@ module.exports = {
         "image":"Shanna1.jpg",
         "email":"carjug@gmail.com",
         "companyId":1,
-        "admin": false,
         "bio":"Shanna Chau was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Viktoryia Shabunia",
@@ -838,10 +956,12 @@ module.exports = {
         "image":"Viktoryia1.jpg",
         "email":"khn710@gmail.com",
         "companyId":25,
-        "admin": false,
         "bio":"Viktoryia Shabunia was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Wang (Loren) Wang",
@@ -852,24 +972,12 @@ module.exports = {
         "image":"Wang1.jpg",
         "email":"wang131.131@gmail.com",
         "companyId":29,
-        "admin": false,
         "bio":"Wang (Loren) Wang was a student in Ada Developers Academy cohort 3. She is now has a job doing some sort of programming and is doing amazing things.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
-      },
-      {
-        "name":"Risha Allen",
-        "cohort":5,
-        "github_username":"rishallen",
-        "twitter":"",
-        "linked_in_url":"https://www.linkedin.com/in/risha-allen-ms-lmhc-00a87b18",
-        "image":"Risha.JPG",
-        "email":"risha.a@hotmail.com",
-        "companyId":null,
-        "admin": false,
-        "bio":"Risha Allen was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Jennie Buechner",
@@ -880,10 +988,12 @@ module.exports = {
         "image":"Jennie.JPG",
         "email":"Janina.buechner@gmail.com",
         "companyId":30,
-        "admin": true,
-        "bio":"Jennie Buechner was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Jennie Buechner is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":true,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Audrey Davis",
@@ -894,10 +1004,12 @@ module.exports = {
         "image":"Audrey.JPG",
         "email":"davis.audrey.lynn@gmail.com",
         "companyId":17,
-        "admin": false,
-        "bio":"Audrey Davis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Audrey Davis is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Katherine Defliese",
@@ -908,10 +1020,12 @@ module.exports = {
         "image":"Katherine.JPG",
         "email":"kdefliese@gmail.com",
         "companyId":1,
-        "admin": false,
-        "bio":"Katherine Defliese was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Katherine Defliese is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Kelly Devlin",
@@ -922,10 +1036,12 @@ module.exports = {
         "image":"Kelly.JPG",
         "email":"kelly_devlin@alumni.brown.edu",
         "companyId":16,
-        "admin": false,
-        "bio":"Kelly Devlin was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Kelly Devlin is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Daphne Gold",
@@ -936,10 +1052,12 @@ module.exports = {
         "image":"Daphne.JPG",
         "email":"dg1181@nyu.edu",
         "companyId":16,
-        "admin": false,
-        "bio":"Daphne Gold was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Daphne Gold is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Emily Gordon",
@@ -950,10 +1068,12 @@ module.exports = {
         "image":"Emily.JPG",
         "email":"emgord@gmail.com",
         "companyId":26,
-        "admin": false,
-        "bio":"Emily Gordon was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Emily Gordon is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Lauren Granger",
@@ -964,10 +1084,12 @@ module.exports = {
         "image":"Lauren.JPG",
         "email":"Lr.granger21@gmail.com",
         "companyId":32,
-        "admin": false,
-        "bio":"Lauren Granger was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Lauren Granger is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Annalee Herrera",
@@ -978,10 +1100,12 @@ module.exports = {
         "image":"Annalee.JPG",
         "email":"annaleeherrera@gmail.com",
         "companyId":33,
-        "admin": false,
-        "bio":"Annalee Herrera was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Annalee Herrera is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Tamar Hershenbaum",
@@ -992,10 +1116,12 @@ module.exports = {
         "image":"Tamar.JPG",
         "email":"misstamar@gmail.com",
         "companyId":32,
-        "admin": false,
-        "bio":"Tamar Hershenbaum was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Tamar Hershenbaum is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Ricky Hougland",
@@ -1006,10 +1132,12 @@ module.exports = {
         "image":"Ricky.JPG",
         "email":"houglande@gmail.com",
         "companyId":27,
-        "admin": false,
-        "bio":"Ricky Hougland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Ricky Hougland is a student in Ada Developers Academy cohort 4. They are about to start their internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Amy Hunter",
@@ -1020,24 +1148,12 @@ module.exports = {
         "image":"Amy.JPG",
         "email":"amyrhunter@gmail.com",
         "companyId":31,
-        "admin": false,
-        "bio":"Amy Hunter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Amy Hunter is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
-      },
-      {
-        "name":"Sarah Kane",
-        "cohort":5,
-        "github_username":"",
-        "twitter":"",
-        "linked_in_url":"",
-        "image":"SarahK.JPG",
-        "email":"sarahkane682@yahoo.com",
-        "companyId":null,
-        "admin": false,
-        "bio":"Sarah Kane was a student in Ada Developers Academy cohort 5. She is now has a job doing some sort of programming and is doing amazing things.",
-        "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Brittany Kohler",
@@ -1048,10 +1164,12 @@ module.exports = {
         "image":"brittany_kohler.png",
         "email":"brittanykohler@gmail.com",
         "companyId":12,
-        "admin": false,
-        "bio":"Brittany Kohler was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Brittany Kohler is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Logan McDonald",
@@ -1062,10 +1180,12 @@ module.exports = {
         "image":"Logan.JPG",
         "email":"loganmcdona11@gmail.com",
         "companyId":6,
-        "admin": false,
-        "bio":"Logan McDonald was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Logan McDonald is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Jenna Nichols",
@@ -1076,10 +1196,12 @@ module.exports = {
         "image":"Jenna.JPG",
         "email":"jennic@utexas.edu",
         "companyId":15,
-        "admin": false,
-        "bio":"Jenna Nichols was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Jenna Nichols is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Jessica Noglows",
@@ -1090,10 +1212,12 @@ module.exports = {
         "image":"Jessica.JPG",
         "email":"jessica.noglows@outlook.com",
         "companyId":14,
-        "admin": false,
-        "bio":"Jessica Noglows was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Jessica Noglows is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Desiree Poland",
@@ -1104,10 +1228,12 @@ module.exports = {
         "image":"Desiree.JPG",
         "email":"desireepoland@gmail.com",
         "companyId":17,
-        "admin": false,
-        "bio":"Desiree Poland was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Desiree Poland is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Meighan Rasley",
@@ -1118,10 +1244,12 @@ module.exports = {
         "image":"Meighan.JPG",
         "email":"meighanr@gmail.com",
         "companyId":7,
-        "admin": false,
-        "bio":"Meighan Rasley was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Meighan Rasley is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Claire Schechter",
@@ -1132,10 +1260,12 @@ module.exports = {
         "image":"Claire.JPG",
         "email":"ClaireS29@gmail.com",
         "companyId":2,
-        "admin": false,
-        "bio":"Claire Schechter was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Claire Schechter is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Riley Spicer",
@@ -1146,10 +1276,12 @@ module.exports = {
         "image":"Riley.JPG",
         "email":"blankpagesandcoffeestains@gmail.com",
         "companyId":16,
-        "admin": false,
-        "bio":"Riley Spicer was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Riley Spicer is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Rebecca Tolmach",
@@ -1160,10 +1292,12 @@ module.exports = {
         "image":"Rebecca.JPG",
         "email":"rmtolmach@gmail.com",
         "companyId":7,
-        "admin": false,
-        "bio":"Rebecca Tolmach was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Rebecca Tolmach is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Sarah Trowbridge",
@@ -1174,10 +1308,12 @@ module.exports = {
         "image":"SarahT.JPG",
         "email":"trowbrsa@gmail.com",
         "companyId":9,
-        "admin": false,
-        "bio":"Sarah Trowbridge was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Sarah Trowbridge is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       },
       {
         "name":"Hailey Willis",
@@ -1188,10 +1324,12 @@ module.exports = {
         "image":"Hailey.JPG",
         "email":"haileyw@gmail.com",
         "companyId":1,
-        "admin": false,
-        "bio":"Hailey Willis was a student in Ada Developers Academy cohort 4. She is now has a job doing some sort of programming and is doing amazing things.",
+        "bio":"Hailey Willis is a student in Ada Developers Academy cohort 4. She is about to start her internship.",
+        "admin":false,
         "createdAt":new Date(),
-        "updatedAt":new Date()
+        "updatedAt":new Date(),
+        "capstone_url":"",
+        "capstone_description":""
       }
     ], {});
   },

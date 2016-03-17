@@ -42,6 +42,12 @@ module.exports = function(sequelize, DataTypes) {
     admin: {
       type: DataTypes.BOOLEAN,
       allowNull: false
+    },
+    capstone_url: {
+      type: DataTypes.STRING,
+    },
+    capstone_description: {
+      type: DataTypes.TEXT,
     }
   }, {
     classMethods: {
