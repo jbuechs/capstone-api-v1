@@ -2,21 +2,13 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../models');
-// var pry = require('pryjs');
+var permissions = require('../utils/permissions');
 
-// TODO: See if I can dry the dotenv and jwt code up
-var dotenv = require('dotenv');
-var jwt = require('express-jwt');
-dotenv.load();
-var jwtCheck = jwt({
-  secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
-  audience: process.env.AUTH0_CLIENT_ID,
-});
+// var pry = require('pryjs');
 
 // GET companies_employees/:id path
 router.get('/:id([0-9]+)', function(req, res) {
-	jwtCheck(req, res, function() {
-		// check for authentication through req.user
+	permissions.authJwt(req, res, function() {
 		db.company.findById(req.params.id, {attributes: {exclude: ['createdAt', 'updatedAt'] }})
 		.then(function(company) {
 			if (company === null) {
