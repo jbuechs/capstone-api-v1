@@ -7,8 +7,14 @@ var permissions = require('../utils/permissions');
 // GET employees path
 router.get('/', function(req, res) {
 	db.employee.findAll()
-		.then(employees => res.send({data:employees}));
-		// add catch for errors?
+		.then(employees => res.send({data:employees}))
+		.catch(function(err) {
+				console.error(err);
+				res.statusCode = 500;
+	      return res.json({ 
+	      	messages: ['Could not retreive employees'],
+	      	errors: err.errors });
+			});
 });
 
 // GET employees/:id path
