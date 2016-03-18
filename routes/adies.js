@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 var db = require('../models');
 var permissions = require('../utils/permissions');
-var pry = require('pryjs');
+// var pry = require('pryjs');
 
 function getExclusions(user) {
 	if (user) {
