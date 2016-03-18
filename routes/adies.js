@@ -49,7 +49,6 @@ router.get('/:id([0-9]+)', function(req, res) {
 				
 				db.sequelize.query('SELECT name FROM companies WHERE "id" = ?', { replacements: [adie.companyId], type: db.sequelize.QueryTypes.SELECT})
 						  .then(function(company) {
-						  	// eval(pry.it);
 						    adie.dataValues.company = company[0].name;
 						    return res.json({ data: adie });
 						  });
@@ -97,7 +96,6 @@ router.post('/', permissions.adminCheck, function(req, res) {
 
 // PATCH to adies/:id path
 router.patch('/:id([0-9]+)', permissions.adminOrAdieCheck, lookupAdie, function(req, res){
-	eval(pry.it);
 	req.data.update({
 		name: req.body.name,
 		cohort: req.body.cohort,
