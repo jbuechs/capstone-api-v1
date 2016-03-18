@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 var db = require('../models');
 var permissions = require('../utils/permissions');
-// var pry = require('pryjs');
+var pry = require('pryjs');
 
 function getExclusions(user) {
 	if (user) {
@@ -76,7 +76,9 @@ router.post('/', permissions.adminCheck, function(req, res) {
 			image: req.body.image,
 			email: req.body.email,
 			bio: req.body.bio,
-			admin: req.body.admin
+			admin: req.body.admin,
+			capstone_url: req.body.capstone_url,
+			capstone_description: req.body.capstone_description
 		}) 
 		.then(function(adie){
 			return res.json(
@@ -95,6 +97,7 @@ router.post('/', permissions.adminCheck, function(req, res) {
 
 // PATCH to adies/:id path
 router.patch('/:id([0-9]+)', permissions.adminOrAdieCheck, lookupAdie, function(req, res){
+	eval(pry.it);
 	req.data.update({
 		name: req.body.name,
 		cohort: req.body.cohort,
@@ -104,9 +107,11 @@ router.patch('/:id([0-9]+)', permissions.adminOrAdieCheck, lookupAdie, function(
 		image: req.body.image,
 		email: req.body.email,
 		bio: req.body.bio,
-		admin: req.body.admin
+		admin: req.body.admin,
+		capstone_url: req.body.capstone_url,
+		capstone_description: req.body.capstone_description
 	}, 
-	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio']})
+	{ fields: ['name', 'cohort', 'github_username', 'twitter', 'linked_in_url', 'image', 'email', 'bio', 'capstone_url', 'capstone_description']})
 	.then(function(updatedAdie){
 		return res.json(
 		{ messages: ['Adie updated!'],
